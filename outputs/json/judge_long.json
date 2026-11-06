@@ -1,0 +1,47 @@
+[
+  {
+    "criterion": "consistency",
+    "output": "summaries_draft",
+    "mean_score": 4.9523809523809526
+  },
+  {
+    "criterion": "completeness",
+    "output": "summaries_draft",
+    "mean_score": 4.809523809523809
+  },
+  {
+    "criterion": "factual_alignment",
+    "output": "summaries_draft",
+    "mean_score": 4.9523809523809526
+  },
+  {
+    "criterion": "consistency",
+    "output": "summaries_final",
+    "mean_score": 5.0
+  },
+  {
+    "criterion": "completeness",
+    "output": "summaries_final",
+    "mean_score": 4.9523809523809526
+  },
+  {
+    "criterion": "factual_alignment",
+    "output": "summaries_final",
+    "mean_score": 5.0
+  },
+  {
+    "criterion": "consistency",
+    "output": "executive_final",
+    "mean_score": 5.0
+  },
+  {
+    "criterion": "completeness",
+    "output": "executive_final",
+    "mean_score": 5.0
+  },
+  {
+    "criterion": "factual_alignment",
+    "output": "executive_final",
+    "mean_score": 5.0
+  }
+]

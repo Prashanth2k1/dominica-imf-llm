@@ -1,0 +1,99 @@
+{
+  "summary": {
+    "backend": "colab",
+    "calls": 124,
+    "live": 0,
+    "cached": 124,
+    "repairs": 0,
+    "live_seconds": 0.0,
+    "out_tokens": 25544
+  },
+  "prompts": {
+    "section_summary": {
+      "system": "You summarise sections of an IMF country report for an economist who has not read it. Use only the text you are given. Copy every number exactly as printed and say which year or fiscal year it refers to. Write plain British English in full sentences, with no bullet points.",
+      "template": "Section: {title} (PDF pages {pages}).\nWrite a summary of FEWER than {limit} words. Cover the main finding, the numbers that support it and any risk or policy advice the section gives. If the section is mostly charts or statistical tables, say what they show and quote the two or three most telling figures.\n\nSECTION TEXT\n{text}"
+    },
+    "summary_judge": {
+      "system": "You audit summaries of IMF report sections. You are strict and specific. Compare the summary with the source text sentence by sentence before you score.",
+      "template": "Score the summary from 1 (poor) to 5 (excellent) on three criteria.\nconsistency: nothing in the summary contradicts the source.\ncompleteness: the main finding, its key numbers and any policy advice are present.\nfactual_alignment: every number, year and claim can be found in the source.\nList each fault you find, quoting the faulty words. Return an empty list if there is none.\n\nSOURCE: {title}\n{text}\n\nSUMMARY\n{summary}"
+    },
+    "summary_revision": {
+      "system": "You summarise sections of an IMF country report for an economist who has not read it. Use only the text you are given. Copy every number exactly as printed and say which year or fiscal year it refers to. Write plain British English in full sentences, with no bullet points.",
+      "template": "Your summary of '{title}' was reviewed. Rewrite it so that it fixes every problem listed and stays FEWER than {limit} words. Use only the source text.\n\nPROBLEMS\n{problems}\n\nSCORES: consistency {c}, completeness {m}, factual alignment {f}\n\nYOUR DRAFT\n{draft}\n\nSOURCE TEXT\n{text}"
+    },
+    "executive_summary": {
+      "system": "You write the executive summary of an IMF Article IV report for a financial stability committee. Use only the section summaries you are given and keep every number exactly as written there.",
+      "template": "Write 6 to 8 bullets on the main financial stability findings and risk assessments for {country}: growth and inflation outlook, public debt, the banking and credit union sectors, external position, and the main downside risks. Each bullet: one or two sentences with at least one figure, tagged with the section ids it uses.\n\nSECTION SUMMARIES\n{summaries}"
+    },
+    "executive_judge": {
+      "system": "You audit summaries of IMF report sections. You are strict and specific. Compare the summary with the source text sentence by sentence before you score.",
+      "template": "Score these executive summary bullets from 1 to 5 on consistency, completeness and factual_alignment against the source material (the press release, the staff report's Key Issues page and the section summaries). completeness here means the bullets cover growth, inflation, debt, the financial sector and risks. List each fault.\n\nSOURCE\n{source}\n\nBULLETS\n{bullets}"
+    },
+    "executive_revision": {
+      "system": "You write the executive summary of an IMF Article IV report for a financial stability committee. Use only the section summaries you are given and keep every number exactly as written there.",
+      "template": "Revise the bullets so they fix every problem below. Keep 6 to 8 bullets and the section tags.\n\nPROBLEMS\n{problems}\n\nBULLETS\n{bullets}\n\nSECTION SUMMARIES\n{summaries}"
+    },
+    "theme_labels": {
+      "system": "You classify passages of an IMF country report into financial stability themes.",
+      "template": "Themes: {themes}.\nFor each passage give the themes it substantively discusses, at most three, most important first. A passing mention does not count. Give an empty list when none applies. Return one label per passage id, using the ids exactly as shown.\n\n{passages}"
+    },
+    "strengths_vulnerabilities": {
+      "system": "You extract evidence-backed findings from an IMF country report. Every quote must be copied character for character from the page named, so that a program can find it.",
+      "template": "From the report pages below, list {n} macroeconomic growth drivers or strengths of {country} and {n} systemic vulnerabilities or challenges. Use the narrative text, not chart labels. No two items may make the same point.{avoid}\nFor each item give the point, one exact quote of 8-35 words and the PDF page number shown in the [PDF page N] marker above the quote.\n\n{pages}"
+    },
+    "sv_judge": {
+      "system": "You check claims against the source page. A claim is supported only if the page states it.",
+      "template": "For each numbered item decide whether its page supports both the point and the quote. Return one verdict per item id.\n\n{items}\n\nPAGES\n{pages}"
+    },
+    "indicators": {
+      "system": "You extract macro-financial indicators from IMF country reports into strict JSON. You never guess: a value must be printed in the pages you are given, and you say exactly where.",
+      "template": "Fill the indicator schema for {country}, using percent values (5.2 means 5.2 percent).\nDefinitions:\n- gdp_growth_forecast_pct: real GDP growth projected for the current year of the report ({year}).\n- headline_inflation_rate_pct: the latest actual (not projected) consumer price inflation, period average.\n- central_bank_policy_rate_pct: the latest policy rate of the central bank whose rate applies to the country. In a currency union this is the union's central bank.\n- non_performing_loan_ratio: commercial banks' non-performing loans to total gross loans, latest year.\n- unemployment_rate_pct: the latest unemployment rate printed in the report; give its year.\n- tier_1_capital_ratio: Tier 1 capital to risk-weighted assets only. A total capital ratio is NOT a Tier 1 ratio.\nIf a value is not printed, set it to null and explain why in null_reason, with the closest figure the report does give. Statistical tables are rows: label, then one value per year column.\n\n{pages}"
+    },
+    "indicator_audit": {
+      "system": "You audit extracted figures against IMF report pages. Check the definition as well as the number: a correct number for the wrong indicator is NOT_SUPPORTED.",
+      "template": "Label every field. SUPPORTED: the pages print this value for this indicator. NOT_SUPPORTED: the value is wrong, belongs to another indicator or year, or cannot be found. CORRECT_NULL: the value is null and the pages indeed print no such figure. WRONG_NULL: the value is null but the pages print it.\nDefinitions used by the extractor:\n{definitions}\n\nEXTRACTED\n{extracted}\n\nPAGES\n{pages}"
+    },
+    "timeseries_read": {
+      "system": "You read statistical tables from IMF reports. Copy numbers exactly; use null for '...' or 'N.A.'.",
+      "template": "Read these rows from the tables below and return every year shown for each: {rows}. Table 5a (commercial banks) comes before Table 5b (credit unions) on the same page; the bank rows carry the series names starting bank_, the credit union rows cu_.\n\n{pages}"
+    },
+    "rag_answer": {
+      "system": "You answer questions about an IMF country report using only the numbered context chunks. If the chunks do not contain the answer, say so and set answerable to false. Never use outside knowledge.",
+      "template": "QUESTION\n{question}\n\nCONTEXT\n{context}\n\nAnswer in at most 80 words, quote figures exactly as printed with their years, and list the ids of the chunks you used."
+    },
+    "rag_judge": {
+      "system": "You grade answers produced by a retrieval system. Judge them only against the context given.",
+      "template": "Score from 1 to 5. faithfulness: every claim in the answer is supported by the context (an honest 'not in the context' is faithful). completeness: the answer covers every part of the question that the context can answer. relevance: the answer addresses the question asked.\n\nQUESTION\n{question}\n\nCONTEXT\n{context}\n\nANSWER\n{answer}"
+    },
+    "sub_questions": {
+      "system": "You write search queries for a retrieval system over one IMF country report.",
+      "template": "Rewrite the question below as {n} short, distinct sub-questions that together cover it. Each should target one fact or one part of the report, and use the words a report would use (for example 'ECCB', 'NPL', 'primary balance').\n\nQUESTION\n{question}"
+    }
+  },
+  "settings": {
+    "pdf_path": "data/dominica_cr26117.pdf",
+    "country": "Dominica",
+    "writer_model": "google/gemini-3.6-flash",
+    "judge_model": "google/gemini-3.8-flash",
+    "embed_model": "sentence-transformers/msmarco-distilbert-base-tas-b",
+    "chunk_tokens": 300,
+    "overlap_tokens": 50,
+    "top_k": 5,
+    "sub_questions": 3,
+    "pool_per_query": 8,
+    "mq_top_k": 8,
+    "mmr_lambda": 0.65,
+    "summary_word_limit": 100,
+    "label_batch": 12,
+    "temperature": 0.0,
+    "max_tokens_colab": 4096,
+    "max_tokens_api": 8192,
+    "retries": 4,
+    "dpi": 300,
+    "cache_db": "cache/llm.sqlite",
+    "vector_dir": "cache/vectors",
+    "out_json": "outputs/json",
+    "out_fig": "outputs/figures"
+  },
+  "pdf_sha256": "666be53846acfd384ac4e04adf5f912754158d8373389970d260735cb10f4865"
+}

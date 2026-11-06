@@ -1,0 +1,49 @@
+{
+  "pages": 98,
+  "chars_raw": 280813,
+  "chars_clean": 263773,
+  "fixes": {
+    "copyright line": 1,
+    "country running header": 90,
+    "broken line joined": 2738,
+    "space before hyphen": 5,
+    "line-end hyphen kept (compound)": 28,
+    "bare page number": 7,
+    "split word rejoined": 7,
+    "IMF running footer": 86,
+    "contents leader line": 33,
+    "chart axis number line": 1176,
+    "space before punctuation": 4,
+    "split number rejoined": 1
+  },
+  "examples": {
+    "space before hyphen": [
+      "'non -' -> 'non-'",
+      "'one -' -> 'one-'",
+      "'debt -' -> 'debt-'",
+      "'r -' -> 'r-'"
+    ],
+    "line-end hyphen kept (compound)": [
+      "'pre-\\npandemic' -> 'pre-pandemic'",
+      "'macro-\\ncritical' -> 'macro-critical'",
+      "'non-\\nperforming' -> 'non-performing'",
+      "'citizenship-\\nby' -> 'citizenship-by'"
+    ],
+    "split word rejoined": [
+      "'ris ks' -> 'risks'",
+      "'disast ers' -> 'disasters'",
+      "'basi s' -> 'basis'",
+      "'siz e' -> 'size'"
+    ],
+    "space before punctuation": [
+      "' ,' -> ','",
+      "' .' -> '.'",
+      "' .' -> '.'",
+      "' .' -> '.'"
+    ],
+    "split number rejoined": [
+      "'10 8.2' -> '108.2'"
+    ]
+  },
+  "pdf_sha256": "666be53846acfd384ac4e04adf5f912754158d8373389970d260735cb10f4865"
+}

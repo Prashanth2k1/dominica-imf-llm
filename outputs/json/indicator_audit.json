@@ -1,0 +1,132 @@
+{
+  "rows": [
+    {
+      "field": "country_name",
+      "model": "Dominica",
+      "hand": "Dominica",
+      "hand_page": 1,
+      "judge": "n/a",
+      "judge_reason": "",
+      "matches_hand": true
+    },
+    {
+      "field": "gdp_growth_forecast_pct",
+      "model": 3.1,
+      "model_page": 33,
+      "hand": 3.1,
+      "hand_page": 33,
+      "judge": "SUPPORTED",
+      "judge_reason": "Table 1 on page 33 reports projected real GDP growth of 3.1 percent for 2026, the current year of the Article IV consultation.",
+      "matches_hand": true
+    },
+    {
+      "field": "headline_inflation_rate_pct",
+      "model": 2.3,
+      "model_page": 33,
+      "hand": 2.3,
+      "hand_page": 33,
+      "judge": "SUPPORTED",
+      "judge_reason": "Table 1 on page 33 and the text on page 2 report the latest preliminary/actual period average consumer price inflation rate of 2.3 percent in 2025.",
+      "matches_hand": true
+    },
+    {
+      "field": "central_bank_policy_rate_pct",
+      "model": 3.0,
+      "model_page": 37,
+      "hand": 3.0,
+      "hand_page": 37,
+      "judge": "SUPPORTED",
+      "judge_reason": "Table 4 on page 37 lists the latest ECCB policy rate at 3.0 percent in 2025.",
+      "matches_hand": true
+    },
+    {
+      "field": "non_performing_loan_ratio",
+      "model": 8.9,
+      "model_page": 38,
+      "hand": 8.9,
+      "hand_page": 38,
+      "judge": "SUPPORTED",
+      "judge_reason": "Table 5a on page 38 reports commercial banks' nonperforming loans to total gross loans as 8.9 percent for 2025.",
+      "matches_hand": true
+    },
+    {
+      "field": "unemployment_rate_pct",
+      "model": 23.0,
+      "model_page": 33,
+      "hand": 23.0,
+      "hand_page": 33,
+      "judge": "SUPPORTED",
+      "judge_reason": "Table 1 on page 33 provides the latest printed unemployment rate of 23 percent for 2016 under Social and Demographic Indicators.",
+      "matches_hand": true
+    },
+    {
+      "field": "tier_1_capital_ratio",
+      "model": null,
+      "model_page": null,
+      "hand": null,
+      "hand_page": 38,
+      "judge": "CORRECT_NULL",
+      "judge_reason": "The report only provides the regulatory capital ratio (total capital to risk-weighted assets) and does not report the Tier 1 capital ratio.",
+      "matches_hand": true
+    }
+  ],
+  "hand_check": {
+    "country_name": {
+      "value": "Dominica",
+      "page": 1,
+      "where": "cover page"
+    },
+    "gdp_growth_forecast_pct": {
+      "value": 3.1,
+      "year": "2026",
+      "page": 33,
+      "where": "Table 1, Real GDP, 2026 projection (same figure in the press release table, p.5, and the outlook text table, p.12)"
+    },
+    "headline_inflation_rate_pct": {
+      "value": 2.3,
+      "year": "2025",
+      "page": 33,
+      "where": "Table 1, Consumer prices, period average 2025; press release p.2: 'averaging 2.3 percent in 2025'"
+    },
+    "central_bank_policy_rate_pct": {
+      "value": 3.0,
+      "year": "end-2025",
+      "page": 37,
+      "where": "Table 4, Interest rates, ECCB policy rate 2025; Dominica uses the EC dollar under the ECCB's quasi-currency board (p.91)"
+    },
+    "non_performing_loan_ratio": {
+      "value": 8.9,
+      "year": "2025",
+      "page": 38,
+      "where": "Table 5a, commercial banks, Nonperforming loans to total gross loans 2025 (credit unions: 15.05, Table 5b)"
+    },
+    "unemployment_rate_pct": {
+      "value": 23.0,
+      "year": "2016",
+      "page": 33,
+      "also_ok": [
+        null
+      ],
+      "where": "Table 1, social indicators: 'Unemployment rate (2016) 23'. The only unemployment figure in the report and ten years old, so a null with that reason is also acceptable"
+    },
+    "tier_1_capital_ratio": {
+      "value": null,
+      "page": 38,
+      "where": "Not reported. Table 5a gives the regulatory capital ratio, total capital over risk-weighted assets (21.0 in 2025); Tier 1 appears only as a denominator (pp.42, 46)"
+    }
+  },
+  "judge_pages": [
+    2,
+    9,
+    10,
+    24,
+    28,
+    31,
+    33,
+    37,
+    38,
+    43,
+    44,
+    81
+  ]
+}

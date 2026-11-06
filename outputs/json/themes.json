@@ -1,0 +1,962 @@
+{
+  "themes": [
+    "Inflation & Prices",
+    "Interest Rates & Credit",
+    "Housing & Real Estate",
+    "Banking Capital & Liquidity",
+    "Sovereign Debt",
+    "Labor Market Dynamics",
+    "Systemic Financial Risk"
+  ],
+  "lexicon": {
+    "Inflation & Prices": "inflation|consumer prices?|\\bcpi\\b|price pressures?|deflator|cost of living|fuel prices?|import prices?",
+    "Interest Rates & Credit": "interest rates?|policy rate|lending rates?|deposit rates?|credit growth|private sector credit|credit to the private|\\bloans?\\b|lending|borrowing costs?|credit bureau",
+    "Housing & Real Estate": "housing|real estate|mortgages?|property prices?|residential|construction loans?|land titl",
+    "Banking Capital & Liquidity": "capital adequacy|regulatory capital|tier 1|capital ratios?|capitali[sz]ed|liquidity|liquid assets|provisioning|provisions|\\bbanks?\\b|deposits?",
+    "Sovereign Debt": "public debt|debt sustainability|debt distress|sovereign|external debt|debt service|fiscal deficit|primary (?:balance|surplus|deficit)|debt-to-gdp|borrowing requirement",
+    "Labor Market Dynamics": "labou?r|unemployment|employment|wages?|workers?|jobs?\\b|skills?|migration|human capital",
+    "Systemic Financial Risk": "financial stability|systemic|contagion|spillovers?|stress tests?|interconnected|nexus|non-?performing|\\bnpls?\\b|credit unions?|financial sector risks?|macro-?financial"
+  },
+  "table": [
+    {
+      "theme": "Inflation & Prices",
+      "lexicon_hits": 77,
+      "hits_per_10k_tokens": 9.7,
+      "llm_chunks": 21,
+      "llm_share_pct": 7.9
+    },
+    {
+      "theme": "Interest Rates & Credit",
+      "lexicon_hits": 179,
+      "hits_per_10k_tokens": 22.4,
+      "llm_chunks": 34,
+      "llm_share_pct": 12.8
+    },
+    {
+      "theme": "Housing & Real Estate",
+      "lexicon_hits": 17,
+      "hits_per_10k_tokens": 2.1,
+      "llm_chunks": 3,
+      "llm_share_pct": 1.1
+    },
+    {
+      "theme": "Banking Capital & Liquidity",
+      "lexicon_hits": 305,
+      "hits_per_10k_tokens": 38.2,
+      "llm_chunks": 47,
+      "llm_share_pct": 17.7
+    },
+    {
+      "theme": "Sovereign Debt",
+      "lexicon_hits": 311,
+      "hits_per_10k_tokens": 39.0,
+      "llm_chunks": 125,
+      "llm_share_pct": 47.0
+    },
+    {
+      "theme": "Labor Market Dynamics",
+      "lexicon_hits": 93,
+      "hits_per_10k_tokens": 11.7,
+      "llm_chunks": 7,
+      "llm_share_pct": 2.6
+    },
+    {
+      "theme": "Systemic Financial Risk",
+      "lexicon_hits": 181,
+      "hits_per_10k_tokens": 22.7,
+      "llm_chunks": 22,
+      "llm_share_pct": 8.3
+    }
+  ],
+  "spearman_rho": 0.929,
+  "spearman_p": 0.0025,
+  "chunks": 266,
+  "unlabeled_chunks": [
+    "S19-62"
+  ],
+  "lexicon_by_section": {
+    "S01": {
+      "Inflation & Prices": 3,
+      "Interest Rates & Credit": 7,
+      "Housing & Real Estate": 0,
+      "Banking Capital & Liquidity": 12,
+      "Sovereign Debt": 12,
+      "Labor Market Dynamics": 2,
+      "Systemic Financial Risk": 9
+    },
+    "S02": {
+      "Inflation & Prices": 3,
+      "Interest Rates & Credit": 2,
+      "Housing & Real Estate": 0,
+      "Banking Capital & Liquidity": 2,
+      "Sovereign Debt": 3,
+      "Labor Market Dynamics": 3,
+      "Systemic Financial Risk": 2
+    },
+    "S03": {
+      "Inflation & Prices": 4,
+      "Interest Rates & Credit": 13,
+      "Housing & Real Estate": 1,
+      "Banking Capital & Liquidity": 16,
+      "Sovereign Debt": 19,
+      "Labor Market Dynamics": 0,
+      "Systemic Financial Risk": 17
+    },
+    "S04": {
+      "Inflation & Prices": 9,
+      "Interest Rates & Credit": 7,
+      "Housing & Real Estate": 0,
+      "Banking Capital & Liquidity": 13,
+      "Sovereign Debt": 4,
+      "Labor Market Dynamics": 0,
+      "Systemic Financial Risk": 13
+    },
+    "S05": {
+      "Inflation & Prices": 3,
+      "Interest Rates & Credit": 1,
+      "Housing & Real Estate": 3,
+      "Banking Capital & Liquidity": 4,
+      "Sovereign Debt": 11,
+      "Labor Market Dynamics": 9,
+      "Systemic Financial Risk": 1
+    },
+    "S06": {
+      "Inflation & Prices": 0,
+      "Interest Rates & Credit": 11,
+      "Housing & Real Estate": 0,
+      "Banking Capital & Liquidity": 23,
+      "Sovereign Debt": 2,
+      "Labor Market Dynamics": 2,
+      "Systemic Financial Risk": 8
+    },
+    "S07": {
+      "Inflation & Prices": 0,
+      "Interest Rates & Credit": 0,
+      "Housing & Real Estate": 0,
+      "Banking Capital & Liquidity": 1,
+      "Sovereign Debt": 0,
+      "Labor Market Dynamics": 30,
+      "Systemic Financial Risk": 0
+    },
+    "S08": {
+      "Inflation & Prices": 2,
+      "Interest Rates & Credit": 0,
+      "Housing & Real Estate": 0,
+      "Banking Capital & Liquidity": 0,
+      "Sovereign Debt": 0,
+      "Labor Market Dynamics": 3,
+      "Systemic Financial Risk": 0
+    },
+    "S09": {
+      "Inflation & Prices": 0,
+      "Interest Rates & Credit": 2,
+      "Housing & Real Estate": 0,
+      "Banking Capital & Liquidity": 4,
+      "Sovereign Debt": 7,
+      "Labor Market Dynamics": 3,
+      "Systemic Financial Risk": 2
+    },
+    "S10": {
+      "Inflation & Prices": 8,
+      "Interest Rates & Credit": 15,
+      "Housing & Real Estate": 9,
+      "Banking Capital & Liquidity": 27,
+      "Sovereign Debt": 9,
+      "Labor Market Dynamics": 2,
+      "Systemic Financial Risk": 15
+    },
+    "S11": {
+      "Inflation & Prices": 2,
+      "Interest Rates & Credit": 29,
+      "Housing & Real Estate": 0,
+      "Banking Capital & Liquidity": 33,
+      "Sovereign Debt": 10,
+      "Labor Market Dynamics": 1,
+      "Systemic Financial Risk": 10
+    },
+    "S12": {
+      "Inflation & Prices": 5,
+      "Interest Rates & Credit": 4,
+      "Housing & Real Estate": 0,
+      "Banking Capital & Liquidity": 10,
+      "Sovereign Debt": 5,
+      "Labor Market Dynamics": 1,
+      "Systemic Financial Risk": 0
+    },
+    "S13": {
+      "Inflation & Prices": 0,
+      "Interest Rates & Credit": 28,
+      "Housing & Real Estate": 0,
+      "Banking Capital & Liquidity": 100,
+      "Sovereign Debt": 15,
+      "Labor Market Dynamics": 0,
+      "Systemic Financial Risk": 52
+    },
+    "S14": {
+      "Inflation & Prices": 4,
+      "Interest Rates & Credit": 6,
+      "Housing & Real Estate": 0,
+      "Banking Capital & Liquidity": 4,
+      "Sovereign Debt": 8,
+      "Labor Market Dynamics": 17,
+      "Systemic Financial Risk": 2
+    },
+    "S15": {
+      "Inflation & Prices": 2,
+      "Interest Rates & Credit": 10,
+      "Housing & Real Estate": 2,
+      "Banking Capital & Liquidity": 7,
+      "Sovereign Debt": 1,
+      "Labor Market Dynamics": 4,
+      "Systemic Financial Risk": 10
+    },
+    "S16": {
+      "Inflation & Prices": 0,
+      "Interest Rates & Credit": 0,
+      "Housing & Real Estate": 0,
+      "Banking Capital & Liquidity": 2,
+      "Sovereign Debt": 0,
+      "Labor Market Dynamics": 1,
+      "Systemic Financial Risk": 0
+    },
+    "S17": {
+      "Inflation & Prices": 0,
+      "Interest Rates & Credit": 0,
+      "Housing & Real Estate": 0,
+      "Banking Capital & Liquidity": 0,
+      "Sovereign Debt": 0,
+      "Labor Market Dynamics": 0,
+      "Systemic Financial Risk": 0
+    },
+    "S18": {
+      "Inflation & Prices": 9,
+      "Interest Rates & Credit": 2,
+      "Housing & Real Estate": 1,
+      "Banking Capital & Liquidity": 3,
+      "Sovereign Debt": 4,
+      "Labor Market Dynamics": 4,
+      "Systemic Financial Risk": 2
+    },
+    "S19": {
+      "Inflation & Prices": 13,
+      "Interest Rates & Credit": 37,
+      "Housing & Real Estate": 0,
+      "Banking Capital & Liquidity": 37,
+      "Sovereign Debt": 189,
+      "Labor Market Dynamics": 0,
+      "Systemic Financial Risk": 32
+    },
+    "S20": {
+      "Inflation & Prices": 1,
+      "Interest Rates & Credit": 3,
+      "Housing & Real Estate": 0,
+      "Banking Capital & Liquidity": 5,
+      "Sovereign Debt": 4,
+      "Labor Market Dynamics": 0,
+      "Systemic Financial Risk": 0
+    },
+    "S21": {
+      "Inflation & Prices": 9,
+      "Interest Rates & Credit": 2,
+      "Housing & Real Estate": 1,
+      "Banking Capital & Liquidity": 2,
+      "Sovereign Debt": 8,
+      "Labor Market Dynamics": 11,
+      "Systemic Financial Risk": 6
+    }
+  },
+  "llm_labels": {
+    "S01-01": [
+      "Inflation & Prices",
+      "Sovereign Debt"
+    ],
+    "S01-02": [
+      "Banking Capital & Liquidity",
+      "Sovereign Debt",
+      "Inflation & Prices"
+    ],
+    "S01-03": [
+      "Banking Capital & Liquidity",
+      "Sovereign Debt"
+    ],
+    "S01-04": [
+      "Banking Capital & Liquidity",
+      "Sovereign Debt",
+      "Systemic Financial Risk"
+    ],
+    "S01-05": [
+      "Banking Capital & Liquidity",
+      "Sovereign Debt"
+    ],
+    "S01-06": [
+      "Inflation & Prices",
+      "Sovereign Debt"
+    ],
+    "S01-07": [
+      "Sovereign Debt"
+    ],
+    "S01-08": [
+      "Sovereign Debt",
+      "Interest Rates & Credit"
+    ],
+    "S01-09": [
+      "Interest Rates & Credit"
+    ],
+    "S01-10": [
+      "Sovereign Debt"
+    ],
+    "S01-11": [],
+    "S01-12": [],
+    "S01-13": [],
+    "S02-01": [
+      "Sovereign Debt",
+      "Inflation & Prices"
+    ],
+    "S02-02": [
+      "Banking Capital & Liquidity",
+      "Sovereign Debt"
+    ],
+    "S02-03": [
+      "Banking Capital & Liquidity",
+      "Sovereign Debt"
+    ],
+    "S03-01": [
+      "Sovereign Debt",
+      "Inflation & Prices",
+      "Interest Rates & Credit"
+    ],
+    "S03-02": [
+      "Sovereign Debt"
+    ],
+    "S03-03": [
+      "Systemic Financial Risk",
+      "Banking Capital & Liquidity",
+      "Sovereign Debt"
+    ],
+    "S03-04": [
+      "Systemic Financial Risk",
+      "Banking Capital & Liquidity",
+      "Interest Rates & Credit"
+    ],
+    "S03-05": [
+      "Systemic Financial Risk",
+      "Banking Capital & Liquidity",
+      "Interest Rates & Credit"
+    ],
+    "S03-06": [
+      "Systemic Financial Risk",
+      "Banking Capital & Liquidity"
+    ],
+    "S04-01": [
+      "Inflation & Prices",
+      "Sovereign Debt"
+    ],
+    "S04-02": [
+      "Interest Rates & Credit",
+      "Banking Capital & Liquidity"
+    ],
+    "S04-03": [
+      "Sovereign Debt",
+      "Inflation & Prices"
+    ],
+    "S04-04": [
+      "Inflation & Prices",
+      "Sovereign Debt"
+    ],
+    "S04-05": [
+      "Sovereign Debt",
+      "Inflation & Prices"
+    ],
+    "S04-06": [
+      "Sovereign Debt",
+      "Inflation & Prices",
+      "Interest Rates & Credit"
+    ],
+    "S04-07": [
+      "Inflation & Prices"
+    ],
+    "S05-01": [
+      "Sovereign Debt"
+    ],
+    "S05-02": [
+      "Sovereign Debt"
+    ],
+    "S05-03": [
+      "Sovereign Debt"
+    ],
+    "S05-04": [
+      "Sovereign Debt"
+    ],
+    "S05-05": [
+      "Sovereign Debt",
+      "Housing & Real Estate",
+      "Labor Market Dynamics"
+    ],
+    "S05-06": [
+      "Sovereign Debt",
+      "Inflation & Prices",
+      "Housing & Real Estate"
+    ],
+    "S05-07": [
+      "Sovereign Debt",
+      "Inflation & Prices"
+    ],
+    "S05-08": [
+      "Sovereign Debt"
+    ],
+    "S05-09": [
+      "Sovereign Debt"
+    ],
+    "S05-10": [
+      "Sovereign Debt"
+    ],
+    "S05-11": [
+      "Sovereign Debt"
+    ],
+    "S05-12": [
+      "Sovereign Debt"
+    ],
+    "S05-13": [
+      "Sovereign Debt"
+    ],
+    "S05-14": [
+      "Sovereign Debt"
+    ],
+    "S06-01": [
+      "Banking Capital & Liquidity",
+      "Systemic Financial Risk",
+      "Interest Rates & Credit"
+    ],
+    "S06-02": [
+      "Interest Rates & Credit",
+      "Banking Capital & Liquidity",
+      "Sovereign Debt"
+    ],
+    "S06-03": [
+      "Interest Rates & Credit"
+    ],
+    "S06-04": [
+      "Banking Capital & Liquidity",
+      "Systemic Financial Risk"
+    ],
+    "S06-05": [
+      "Interest Rates & Credit"
+    ],
+    "S06-06": [
+      "Interest Rates & Credit"
+    ],
+    "S07-01": [],
+    "S07-02": [],
+    "S07-03": [],
+    "S07-04": [],
+    "S07-05": [],
+    "S07-06": [],
+    "S07-07": [],
+    "S07-08": [
+      "Labor Market Dynamics"
+    ],
+    "S07-09": [],
+    "S07-10": [
+      "Labor Market Dynamics"
+    ],
+    "S07-11": [
+      "Labor Market Dynamics"
+    ],
+    "S08-01": [],
+    "S08-02": [],
+    "S08-03": [],
+    "S09-01": [
+      "Sovereign Debt"
+    ],
+    "S09-02": [
+      "Banking Capital & Liquidity",
+      "Sovereign Debt",
+      "Systemic Financial Risk"
+    ],
+    "S09-03": [],
+    "S10-01": [
+      "Inflation & Prices"
+    ],
+    "S10-02": [
+      "Inflation & Prices"
+    ],
+    "S10-03": [],
+    "S10-04": [
+      "Sovereign Debt"
+    ],
+    "S10-05": [
+      "Sovereign Debt",
+      "Banking Capital & Liquidity"
+    ],
+    "S10-06": [
+      "Banking Capital & Liquidity",
+      "Sovereign Debt"
+    ],
+    "S10-07": [
+      "Banking Capital & Liquidity",
+      "Interest Rates & Credit",
+      "Housing & Real Estate"
+    ],
+    "S10-08": [
+      "Banking Capital & Liquidity",
+      "Interest Rates & Credit"
+    ],
+    "S10-09": [
+      "Banking Capital & Liquidity",
+      "Interest Rates & Credit"
+    ],
+    "S10-10": [
+      "Banking Capital & Liquidity",
+      "Interest Rates & Credit"
+    ],
+    "S11-01": [
+      "Inflation & Prices"
+    ],
+    "S11-02": [
+      "Sovereign Debt"
+    ],
+    "S11-03": [
+      "Sovereign Debt"
+    ],
+    "S11-04": [
+      "Sovereign Debt",
+      "Interest Rates & Credit"
+    ],
+    "S11-05": [],
+    "S11-06": [
+      "Sovereign Debt"
+    ],
+    "S11-07": [],
+    "S11-08": [],
+    "S11-09": [],
+    "S11-10": [],
+    "S11-11": [],
+    "S11-12": [],
+    "S11-13": [],
+    "S11-14": [],
+    "S11-15": [],
+    "S11-16": [],
+    "S11-17": [],
+    "S11-18": [],
+    "S11-19": [],
+    "S11-20": [],
+    "S11-21": [],
+    "S11-22": [],
+    "S11-23": [],
+    "S11-24": [],
+    "S11-25": [
+      "Sovereign Debt"
+    ],
+    "S11-26": [],
+    "S11-27": [],
+    "S11-28": [],
+    "S11-29": [],
+    "S11-30": [],
+    "S11-31": [],
+    "S11-32": [
+      "Sovereign Debt"
+    ],
+    "S11-33": [
+      "Sovereign Debt"
+    ],
+    "S11-34": [
+      "Interest Rates & Credit",
+      "Banking Capital & Liquidity"
+    ],
+    "S11-35": [
+      "Interest Rates & Credit",
+      "Banking Capital & Liquidity"
+    ],
+    "S11-36": [
+      "Interest Rates & Credit",
+      "Banking Capital & Liquidity"
+    ],
+    "S11-37": [
+      "Interest Rates & Credit",
+      "Banking Capital & Liquidity"
+    ],
+    "S11-38": [
+      "Interest Rates & Credit",
+      "Banking Capital & Liquidity"
+    ],
+    "S11-39": [
+      "Banking Capital & Liquidity"
+    ],
+    "S11-40": [
+      "Banking Capital & Liquidity"
+    ],
+    "S11-41": [
+      "Banking Capital & Liquidity"
+    ],
+    "S11-42": [
+      "Banking Capital & Liquidity"
+    ],
+    "S12-01": [],
+    "S12-02": [
+      "Sovereign Debt"
+    ],
+    "S12-03": [],
+    "S12-04": [],
+    "S12-05": [],
+    "S12-06": [],
+    "S12-07": [],
+    "S12-08": [],
+    "S12-09": [],
+    "S12-10": [],
+    "S13-01": [
+      "Systemic Financial Risk",
+      "Banking Capital & Liquidity",
+      "Interest Rates & Credit"
+    ],
+    "S13-02": [
+      "Sovereign Debt",
+      "Banking Capital & Liquidity",
+      "Systemic Financial Risk"
+    ],
+    "S13-03": [
+      "Banking Capital & Liquidity",
+      "Interest Rates & Credit",
+      "Systemic Financial Risk"
+    ],
+    "S13-04": [
+      "Banking Capital & Liquidity",
+      "Interest Rates & Credit",
+      "Systemic Financial Risk"
+    ],
+    "S13-05": [
+      "Systemic Financial Risk",
+      "Sovereign Debt",
+      "Banking Capital & Liquidity"
+    ],
+    "S13-06": [
+      "Sovereign Debt",
+      "Systemic Financial Risk",
+      "Banking Capital & Liquidity"
+    ],
+    "S13-07": [
+      "Sovereign Debt",
+      "Banking Capital & Liquidity",
+      "Interest Rates & Credit"
+    ],
+    "S13-08": [
+      "Banking Capital & Liquidity",
+      "Interest Rates & Credit",
+      "Systemic Financial Risk"
+    ],
+    "S13-09": [
+      "Sovereign Debt",
+      "Banking Capital & Liquidity",
+      "Interest Rates & Credit"
+    ],
+    "S13-10": [
+      "Interest Rates & Credit",
+      "Sovereign Debt",
+      "Banking Capital & Liquidity"
+    ],
+    "S13-11": [],
+    "S13-12": [],
+    "S13-13": [],
+    "S13-14": [],
+    "S13-15": [],
+    "S13-16": [],
+    "S13-17": [],
+    "S13-18": [],
+    "S13-19": [],
+    "S13-20": [],
+    "S14-01": [
+      "Inflation & Prices"
+    ],
+    "S14-02": [
+      "Sovereign Debt",
+      "Interest Rates & Credit",
+      "Inflation & Prices"
+    ],
+    "S14-03": [
+      "Sovereign Debt",
+      "Interest Rates & Credit",
+      "Systemic Financial Risk"
+    ],
+    "S14-04": [
+      "Labor Market Dynamics",
+      "Inflation & Prices"
+    ],
+    "S14-05": [
+      "Labor Market Dynamics",
+      "Sovereign Debt"
+    ],
+    "S14-06": [
+      "Sovereign Debt",
+      "Banking Capital & Liquidity",
+      "Systemic Financial Risk"
+    ],
+    "S14-07": [
+      "Sovereign Debt",
+      "Banking Capital & Liquidity",
+      "Systemic Financial Risk"
+    ],
+    "S15-01": [
+      "Sovereign Debt",
+      "Labor Market Dynamics"
+    ],
+    "S15-02": [
+      "Sovereign Debt"
+    ],
+    "S15-03": [
+      "Banking Capital & Liquidity"
+    ],
+    "S15-04": [
+      "Banking Capital & Liquidity",
+      "Interest Rates & Credit"
+    ],
+    "S15-05": [
+      "Interest Rates & Credit",
+      "Banking Capital & Liquidity"
+    ],
+    "S15-06": [],
+    "S15-07": [],
+    "S16-01": [],
+    "S16-02": [],
+    "S16-03": [],
+    "S16-04": [],
+    "S16-05": [],
+    "S16-06": [],
+    "S16-07": [],
+    "S17-01": [],
+    "S17-02": [],
+    "S17-03": [],
+    "S17-04": [],
+    "S17-05": [],
+    "S17-06": [],
+    "S17-07": [],
+    "S17-08": [],
+    "S17-09": [],
+    "S18-01": [],
+    "S18-02": [],
+    "S18-03": [],
+    "S18-04": [],
+    "S18-05": [],
+    "S18-06": [],
+    "S18-07": [],
+    "S18-08": [],
+    "S18-09": [],
+    "S19-01": [
+      "Sovereign Debt"
+    ],
+    "S19-02": [
+      "Sovereign Debt"
+    ],
+    "S19-03": [
+      "Sovereign Debt"
+    ],
+    "S19-04": [
+      "Sovereign Debt"
+    ],
+    "S19-05": [
+      "Sovereign Debt"
+    ],
+    "S19-06": [
+      "Sovereign Debt",
+      "Systemic Financial Risk"
+    ],
+    "S19-07": [
+      "Sovereign Debt"
+    ],
+    "S19-08": [
+      "Sovereign Debt"
+    ],
+    "S19-09": [
+      "Sovereign Debt"
+    ],
+    "S19-10": [
+      "Sovereign Debt",
+      "Inflation & Prices"
+    ],
+    "S19-11": [
+      "Sovereign Debt"
+    ],
+    "S19-12": [
+      "Sovereign Debt"
+    ],
+    "S19-13": [
+      "Sovereign Debt"
+    ],
+    "S19-14": [
+      "Sovereign Debt"
+    ],
+    "S19-15": [
+      "Sovereign Debt"
+    ],
+    "S19-16": [
+      "Sovereign Debt"
+    ],
+    "S19-17": [
+      "Sovereign Debt"
+    ],
+    "S19-18": [
+      "Sovereign Debt"
+    ],
+    "S19-19": [
+      "Sovereign Debt"
+    ],
+    "S19-20": [
+      "Sovereign Debt"
+    ],
+    "S19-21": [
+      "Sovereign Debt",
+      "Systemic Financial Risk"
+    ],
+    "S19-22": [
+      "Sovereign Debt"
+    ],
+    "S19-23": [
+      "Sovereign Debt"
+    ],
+    "S19-24": [
+      "Sovereign Debt"
+    ],
+    "S19-25": [
+      "Sovereign Debt"
+    ],
+    "S19-26": [
+      "Sovereign Debt",
+      "Systemic Financial Risk"
+    ],
+    "S19-27": [
+      "Sovereign Debt"
+    ],
+    "S19-28": [
+      "Sovereign Debt"
+    ],
+    "S19-29": [
+      "Sovereign Debt"
+    ],
+    "S19-30": [],
+    "S19-31": [
+      "Sovereign Debt"
+    ],
+    "S19-32": [
+      "Sovereign Debt"
+    ],
+    "S19-33": [
+      "Sovereign Debt"
+    ],
+    "S19-34": [
+      "Sovereign Debt"
+    ],
+    "S19-35": [
+      "Sovereign Debt"
+    ],
+    "S19-36": [
+      "Sovereign Debt"
+    ],
+    "S19-37": [
+      "Sovereign Debt"
+    ],
+    "S19-38": [
+      "Sovereign Debt"
+    ],
+    "S19-39": [
+      "Sovereign Debt"
+    ],
+    "S19-40": [
+      "Sovereign Debt"
+    ],
+    "S19-41": [
+      "Sovereign Debt"
+    ],
+    "S19-42": [
+      "Sovereign Debt"
+    ],
+    "S19-43": [
+      "Sovereign Debt"
+    ],
+    "S19-44": [
+      "Sovereign Debt"
+    ],
+    "S19-45": [
+      "Sovereign Debt"
+    ],
+    "S19-46": [
+      "Sovereign Debt"
+    ],
+    "S19-47": [
+      "Sovereign Debt"
+    ],
+    "S19-48": [
+      "Sovereign Debt"
+    ],
+    "S19-49": [
+      "Sovereign Debt"
+    ],
+    "S19-50": [
+      "Sovereign Debt"
+    ],
+    "S19-51": [
+      "Sovereign Debt"
+    ],
+    "S19-52": [
+      "Sovereign Debt"
+    ],
+    "S19-53": [
+      "Sovereign Debt"
+    ],
+    "S19-54": [
+      "Sovereign Debt"
+    ],
+    "S19-55": [
+      "Sovereign Debt"
+    ],
+    "S19-56": [
+      "Sovereign Debt"
+    ],
+    "S19-57": [
+      "Sovereign Debt"
+    ],
+    "S19-58": [
+      "Sovereign Debt"
+    ],
+    "S19-59": [
+      "Sovereign Debt"
+    ],
+    "S19-60": [
+      "Sovereign Debt"
+    ],
+    "S19-61": [
+      "Sovereign Debt"
+    ],
+    "S19-62": [],
+    "S20-01": [
+      "Sovereign Debt"
+    ],
+    "S20-02": [
+      "Sovereign Debt"
+    ],
+    "S20-03": [],
+    "S20-04": [],
+    "S20-05": [],
+    "S20-06": [],
+    "S20-07": [],
+    "S20-08": [],
+    "S21-01": [],
+    "S21-02": [],
+    "S21-03": [
+      "Inflation & Prices"
+    ],
+    "S21-04": [
+      "Sovereign Debt"
+    ],
+    "S21-05": [
+      "Sovereign Debt"
+    ],
+    "S21-06": [
+      "Banking Capital & Liquidity",
+      "Interest Rates & Credit",
+      "Systemic Financial Risk"
+    ],
+    "S21-07": [
+      "Banking Capital & Liquidity"
+    ],
+    "S21-08": [],
+    "S21-09": []
+  }
+}

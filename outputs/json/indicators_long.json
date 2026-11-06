@@ -1,0 +1,62 @@
+[
+  {
+    "indicator": "gdp_growth_forecast_pct",
+    "source": "model",
+    "value": 3.1
+  },
+  {
+    "indicator": "headline_inflation_rate_pct",
+    "source": "model",
+    "value": 2.3
+  },
+  {
+    "indicator": "central_bank_policy_rate_pct",
+    "source": "model",
+    "value": 3.0
+  },
+  {
+    "indicator": "non_performing_loan_ratio",
+    "source": "model",
+    "value": 8.9
+  },
+  {
+    "indicator": "unemployment_rate_pct",
+    "source": "model",
+    "value": 23.0
+  },
+  {
+    "indicator": "tier_1_capital_ratio",
+    "source": "model",
+    "value": NaN
+  },
+  {
+    "indicator": "gdp_growth_forecast_pct",
+    "source": "hand_check",
+    "value": 3.1
+  },
+  {
+    "indicator": "headline_inflation_rate_pct",
+    "source": "hand_check",
+    "value": 2.3
+  },
+  {
+    "indicator": "central_bank_policy_rate_pct",
+    "source": "hand_check",
+    "value": 3.0
+  },
+  {
+    "indicator": "non_performing_loan_ratio",
+    "source": "hand_check",
+    "value": 8.9
+  },
+  {
+    "indicator": "unemployment_rate_pct",
+    "source": "hand_check",
+    "value": 23.0
+  },
+  {
+    "indicator": "tier_1_capital_ratio",
+    "source": "hand_check",
+    "value": NaN
+  }
+]

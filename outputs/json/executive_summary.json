@@ -1,0 +1,71 @@
+{
+  "bullets": [
+    {
+      "text": "Real GDP growth reached 4.5 percent in 2025 and is projected to average 3.0 percent in 2026–27, while inflation is expected to accelerate to 3.9 percent by end-2026 before receding to 2.2 percent over the long run.",
+      "section_ids": [
+        "S01",
+        "S02",
+        "S04"
+      ]
+    },
+    {
+      "text": "Public debt remained high at 108.2 percent of GDP in FY2024/25, well above the regional benchmark of 60 percent of GDP. Capital expenditure widened the primary deficit to 4½ percent of GDP in FY2024/25, keeping risks of debt distress high.",
+      "section_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S11",
+        "S19"
+      ]
+    },
+    {
+      "text": "To lower debt distress risks, staff recommend EC$60 million in additional consolidation over two years to sustain a 3.4 percent of GDP primary surplus from FY2027/28. This active scenario would reduce public debt to 59.5 percent of GDP by 2035.",
+      "section_ids": [
+        "S05"
+      ]
+    },
+    {
+      "text": "Systemic financial risks persist due to elevated non-performing loan ratios and rapid credit union expansion despite weak balance sheets. Additionally, the economy's net exposure to the rest of the world increased from 36 percent of GDP in 2019 to 65 percent of GDP in 2024.",
+      "section_ids": [
+        "S03",
+        "S13"
+      ]
+    },
+    {
+      "text": "The external position is substantially weaker than medium-term fundamentals, with the current account deficit estimated at 38 percent of GDP in 2025. This generates a current account gap of 21.3 percent of GDP against a norm of -16.7 percent of GDP.",
+      "section_ids": [
+        "S01",
+        "S12"
+      ]
+    },
+    {
+      "text": "Structural constraints hamper growth, as trade barriers produced a US$7.3 million export gap outside the Caribbean in 2021, equivalent to 1.3 percent of GDP. Furthermore, regional freight costs averaged roughly three times the global average from 2016 to 2019.",
+      "section_ids": [
+        "S07",
+        "S16"
+      ]
+    },
+    {
+      "text": "Dominica faces significant downside risks from geopolitical conflicts, natural disasters, and commodity price volatility. Uncertainty also surrounds Citizenship by Investment inflows, which are projected to converge to 15¾ percent of GDP over the medium term.",
+      "section_ids": [
+        "S01",
+        "S04",
+        "S14"
+      ]
+    }
+  ],
+  "revised": false,
+  "draft_scores": {
+    "consistency": 5,
+    "completeness": 5,
+    "factual_alignment": 5
+  },
+  "final_scores": {
+    "consistency": 5,
+    "completeness": 5,
+    "factual_alignment": 5
+  },
+  "judge_problems": [],
+  "numbers_not_in_pdf": [],
+  "unknown_tags": []
+}

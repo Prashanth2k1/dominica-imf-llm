@@ -1,0 +1,97 @@
+{
+  "indicators": {
+    "country_name": "Dominica",
+    "gdp_growth_forecast_pct": 3.1,
+    "headline_inflation_rate_pct": 2.3,
+    "central_bank_policy_rate_pct": 3.0,
+    "non_performing_loan_ratio": 8.9,
+    "unemployment_rate_pct": 23.0,
+    "tier_1_capital_ratio": null
+  },
+  "fallbacks": {
+    "tier_1_capital_ratio": "The report provides total capital to risk-weighted assets (Regulatory capital ratio of 21.0 percent in 2025 in Table 5a), but does not report the Tier 1 capital ratio specifically."
+  },
+  "evidence": {
+    "gdp_growth_forecast_pct": {
+      "field": "gdp_growth_forecast_pct",
+      "value": 3.1,
+      "year": "2026",
+      "pdf_page": 33,
+      "quote": "Real GDP 1/ 6.9 5.6 4.7 3.5 4.5 3.1",
+      "null_reason": null,
+      "quote_on_page": true
+    },
+    "headline_inflation_rate_pct": {
+      "field": "headline_inflation_rate_pct",
+      "value": 2.3,
+      "year": "2025",
+      "pdf_page": 33,
+      "quote": "Period average 1.6 7.7 4.2 3.1 2.3 3.0",
+      "null_reason": null,
+      "quote_on_page": true
+    },
+    "central_bank_policy_rate_pct": {
+      "field": "central_bank_policy_rate_pct",
+      "value": 3.0,
+      "year": "2025",
+      "pdf_page": 37,
+      "quote": "ECCB policy rate 2.0 2.0 2.0 3.0 3.0 …",
+      "null_reason": null,
+      "quote_on_page": true
+    },
+    "non_performing_loan_ratio": {
+      "field": "non_performing_loan_ratio",
+      "value": 8.9,
+      "year": "2025",
+      "pdf_page": 38,
+      "quote": "Nonperforming loans to total gross loans 15.1 14.5 17.4 17.0 12.2 15.0 15.7 13.8 12.9 10.7 8.9",
+      "null_reason": null,
+      "quote_on_page": true
+    },
+    "unemployment_rate_pct": {
+      "field": "unemployment_rate_pct",
+      "value": 23.0,
+      "year": "2016",
+      "pdf_page": 33,
+      "quote": "Unemployment rate (2016) 23",
+      "null_reason": null,
+      "quote_on_page": true
+    },
+    "tier_1_capital_ratio": {
+      "field": "tier_1_capital_ratio",
+      "value": null,
+      "year": null,
+      "pdf_page": null,
+      "quote": null,
+      "null_reason": "The report provides total capital to risk-weighted assets (Regulatory capital ratio of 21.0 percent in 2025 in Table 5a), but does not report the Tier 1 capital ratio specifically.",
+      "quote_on_page": false
+    }
+  },
+  "evidence_pages": {
+    "gdp_growth_forecast_pct": [
+      28,
+      81
+    ],
+    "headline_inflation_rate_pct": [
+      28,
+      9
+    ],
+    "central_bank_policy_rate_pct": [
+      31,
+      37
+    ],
+    "non_performing_loan_ratio": [
+      43,
+      10
+    ],
+    "unemployment_rate_pct": [
+      2,
+      24
+    ],
+    "tier_1_capital_ratio": [
+      38,
+      44
+    ]
+  },
+  "repair_rounds": 0
+}

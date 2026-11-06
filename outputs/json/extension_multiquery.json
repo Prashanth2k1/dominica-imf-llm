@@ -1,0 +1,542 @@
+{
+  "settings": {
+    "sub_questions": 3,
+    "pool_per_query": 8,
+    "mmr_lambda": 0.65,
+    "multi_top_k": 8,
+    "single_top_k": 5
+  },
+  "summary": {
+    "single_query": {
+      "fact_recall": 0.562,
+      "faithfulness": 5.0,
+      "completeness": 5.0,
+      "relevance": 5.0,
+      "gold_page_hit": 0.75,
+      "context_chunks": 5
+    },
+    "multi_query": {
+      "fact_recall": 0.875,
+      "faithfulness": 5.0,
+      "completeness": 5.0,
+      "relevance": 5.0,
+      "gold_page_hit": 0.875,
+      "context_chunks": 8
+    }
+  },
+  "per_question": [
+    {
+      "id": "Q1",
+      "fact_recall_single": 1.0,
+      "fact_recall_multi": 1.0,
+      "fact_recall_diff": 0.0,
+      "faithfulness_single": 5,
+      "faithfulness_multi": 5,
+      "faithfulness_diff": 0,
+      "completeness_single": 5,
+      "completeness_multi": 5,
+      "completeness_diff": 0,
+      "relevance_single": 5,
+      "relevance_multi": 5,
+      "relevance_diff": 0,
+      "page_hit_single": true,
+      "page_hit_multi": true
+    },
+    {
+      "id": "Q2",
+      "fact_recall_single": 0.5,
+      "fact_recall_multi": 1.0,
+      "fact_recall_diff": 0.5,
+      "faithfulness_single": 5,
+      "faithfulness_multi": 5,
+      "faithfulness_diff": 0,
+      "completeness_single": 5,
+      "completeness_multi": 5,
+      "completeness_diff": 0,
+      "relevance_single": 5,
+      "relevance_multi": 5,
+      "relevance_diff": 0,
+      "page_hit_single": true,
+      "page_hit_multi": true
+    },
+    {
+      "id": "Q3",
+      "fact_recall_single": 0.0,
+      "fact_recall_multi": 0.0,
+      "fact_recall_diff": 0.0,
+      "faithfulness_single": 5,
+      "faithfulness_multi": 5,
+      "faithfulness_diff": 0,
+      "completeness_single": 5,
+      "completeness_multi": 5,
+      "completeness_diff": 0,
+      "relevance_single": 5,
+      "relevance_multi": 5,
+      "relevance_diff": 0,
+      "page_hit_single": false,
+      "page_hit_multi": false
+    },
+    {
+      "id": "Q4",
+      "fact_recall_single": 0.0,
+      "fact_recall_multi": 1.0,
+      "fact_recall_diff": 1.0,
+      "faithfulness_single": 5,
+      "faithfulness_multi": 5,
+      "faithfulness_diff": 0,
+      "completeness_single": 5,
+      "completeness_multi": 5,
+      "completeness_diff": 0,
+      "relevance_single": 5,
+      "relevance_multi": 5,
+      "relevance_diff": 0,
+      "page_hit_single": true,
+      "page_hit_multi": true
+    },
+    {
+      "id": "Q5",
+      "fact_recall_single": 1.0,
+      "fact_recall_multi": 1.0,
+      "fact_recall_diff": 0.0,
+      "faithfulness_single": 5,
+      "faithfulness_multi": 5,
+      "faithfulness_diff": 0,
+      "completeness_single": 5,
+      "completeness_multi": 5,
+      "completeness_diff": 0,
+      "relevance_single": 5,
+      "relevance_multi": 5,
+      "relevance_diff": 0,
+      "page_hit_single": true,
+      "page_hit_multi": true
+    },
+    {
+      "id": "Q6",
+      "fact_recall_single": 1.0,
+      "fact_recall_multi": 1.0,
+      "fact_recall_diff": 0.0,
+      "faithfulness_single": 5,
+      "faithfulness_multi": 5,
+      "faithfulness_diff": 0,
+      "completeness_single": 5,
+      "completeness_multi": 5,
+      "completeness_diff": 0,
+      "relevance_single": 5,
+      "relevance_multi": 5,
+      "relevance_diff": 0,
+      "page_hit_single": true,
+      "page_hit_multi": true
+    },
+    {
+      "id": "Q7",
+      "fact_recall_single": 1.0,
+      "fact_recall_multi": 1.0,
+      "fact_recall_diff": 0.0,
+      "faithfulness_single": 5,
+      "faithfulness_multi": 5,
+      "faithfulness_diff": 0,
+      "completeness_single": 5,
+      "completeness_multi": 5,
+      "completeness_diff": 0,
+      "relevance_single": 5,
+      "relevance_multi": 5,
+      "relevance_diff": 0,
+      "page_hit_single": true,
+      "page_hit_multi": true
+    },
+    {
+      "id": "Q8",
+      "fact_recall_single": 0.0,
+      "fact_recall_multi": 1.0,
+      "fact_recall_diff": 1.0,
+      "faithfulness_single": 5,
+      "faithfulness_multi": 5,
+      "faithfulness_diff": 0,
+      "completeness_single": 5,
+      "completeness_multi": 5,
+      "completeness_diff": 0,
+      "relevance_single": 5,
+      "relevance_multi": 5,
+      "relevance_diff": 0,
+      "page_hit_single": false,
+      "page_hit_multi": true
+    },
+    {
+      "id": "Q9",
+      "fact_recall_single": NaN,
+      "fact_recall_multi": NaN,
+      "fact_recall_diff": NaN,
+      "faithfulness_single": 5,
+      "faithfulness_multi": 5,
+      "faithfulness_diff": 0,
+      "completeness_single": 5,
+      "completeness_multi": 5,
+      "completeness_diff": 0,
+      "relevance_single": 5,
+      "relevance_multi": 5,
+      "relevance_diff": 0,
+      "page_hit_single": null,
+      "page_hit_multi": null
+    }
+  ],
+  "multi_results": [
+    {
+      "id": "Q1",
+      "question": "What real GDP growth did Dominica record in 2025, and what growth is projected for 2026?",
+      "retrieved": [
+        "S11-01",
+        "S10-01",
+        "S19-08",
+        "S11-09",
+        "S07-01",
+        "S11-18",
+        "S02-01",
+        "S19-51"
+      ],
+      "answer": "According to Table 1, Dominica recorded real GDP growth of 4.5 percent in 2025, while real GDP growth of 3.1 percent is projected for 2026.",
+      "cited": [
+        "S11-01"
+      ],
+      "answerable_said": true,
+      "fact_recall": 1.0,
+      "citations_valid": true,
+      "gold_page_hit": true,
+      "correct_refusal": null,
+      "faithfulness": 5,
+      "completeness": 5,
+      "relevance": 5,
+      "judge_note": "The answer accurately retrieves the 2025 (4.5 percent) and 2026 (3.1 percent) real GDP growth rates from Table 1 in the context.",
+      "context_chunks": 8,
+      "sub_questions": [
+        "What was Dominica's estimated real GDP growth rate in 2025?",
+        "What is the projected real GDP growth rate for Dominica in 2026?",
+        "What is Dominica's projected medium-term real GDP growth outlook in the macroeconomic framework?"
+      ],
+      "pool_unique": 12
+    },
+    {
+      "id": "Q2",
+      "question": "How high is Dominica's public debt and what is the regional debt benchmark?",
+      "retrieved": [
+        "S10-05",
+        "S13-18",
+        "S11-18",
+        "S02-01",
+        "S19-08",
+        "S19-09",
+        "S19-44",
+        "S19-43"
+      ],
+      "answer": "Dominica's public sector debt was 110.0 percent of GDP in 2022, 101.3 percent in 2023, 108.2 percent in 2024, and is projected at 99.3 percent in 2025. This places it well above the Eastern Caribbean Currency Union (ECCU) regional benchmark of 60 percent of GDP.",
+      "cited": [
+        "S02-01",
+        "S10-05",
+        "S19-44"
+      ],
+      "answerable_said": true,
+      "fact_recall": 1.0,
+      "citations_valid": true,
+      "gold_page_hit": true,
+      "correct_refusal": null,
+      "faithfulness": 5,
+      "completeness": 5,
+      "relevance": 5,
+      "judge_note": "The response accurately and fully answers both parts of the question using verified figures directly from the context.",
+      "context_chunks": 8,
+      "sub_questions": [
+        "What is Dominica's total public debt-to-GDP ratio?",
+        "What is the ECCU regional debt benchmark target?",
+        "What is the projected trajectory of Dominica's public debt relative to the regional target?"
+      ],
+      "pool_unique": 18
+    },
+    {
+      "id": "Q3",
+      "question": "What primary surplus does IMF staff recommend, and by when would it bring public debt below 60 percent of GDP?",
+      "retrieved": [
+        "S19-08",
+        "S19-30",
+        "S01-02",
+        "S13-20",
+        "S19-35",
+        "S19-57",
+        "S19-24",
+        "S19-44"
+      ],
+      "answer": "I am sorry, but the provided context does not contain information on the primary surplus recommended by IMF staff or the specific year by which it would bring public debt below 60 percent of GDP.",
+      "cited": [],
+      "answerable_said": false,
+      "fact_recall": 0.0,
+      "citations_valid": false,
+      "gold_page_hit": false,
+      "correct_refusal": null,
+      "faithfulness": 5,
+      "completeness": 5,
+      "relevance": 5,
+      "judge_note": "The model correctly recognizes that the specific recommendation and target year are not present in the provided context.",
+      "context_chunks": 8,
+      "sub_questions": [
+        "What primary surplus level does IMF staff recommend?",
+        "By which target year is public debt projected to fall below 60 percent of GDP?",
+        "What fiscal trajectory or anchor is recommended to achieve the 60 percent debt-to-GDP threshold?"
+      ],
+      "pool_unique": 19
+    },
+    {
+      "id": "Q4",
+      "question": "What is the non-performing loan ratio of Dominica's commercial banks in 2025?",
+      "retrieved": [
+        "S11-39",
+        "S19-43",
+        "S11-40",
+        "S10-08",
+        "S11-09",
+        "S11-18",
+        "S11-15",
+        "S11-27"
+      ],
+      "answer": "According to Table 5a (Financial Stability Indicators—Commercial Banks), the ratio of nonperforming loans to total gross loans for Dominica's commercial banks in 2025 is 8.9 percent.",
+      "cited": [
+        "S11-39",
+        "S11-40"
+      ],
+      "answerable_said": true,
+      "fact_recall": 1.0,
+      "citations_valid": true,
+      "gold_page_hit": true,
+      "correct_refusal": null,
+      "faithfulness": 5,
+      "completeness": 5,
+      "relevance": 5,
+      "judge_note": "The answer accurately retrieves the 2025 nonperforming loan ratio (8.9 percent) for commercial banks from the context.",
+      "context_chunks": 8,
+      "sub_questions": [
+        "What is the projected commercial bank NPL ratio for Dominica in 2025?",
+        "How does Dominica's commercial bank NPL ratio compare to the ECCB benchmark target?",
+        "What trends in asset quality and non-performing loans are reported for Dominica's banking sector?"
+      ],
+      "pool_unique": 21
+    },
+    {
+      "id": "Q5",
+      "question": "In the sovereign-to-bank stress scenario, what happens to the banking sector's capital adequacy ratio if 10 percent of credit to the government is impaired?",
+      "retrieved": [
+        "S14-03",
+        "S11-12",
+        "S13-09",
+        "S19-57",
+        "S19-07",
+        "S19-06",
+        "S19-49",
+        "S03-06"
+      ],
+      "answer": "If 10 percent of credit to the government were temporarily impaired, it could erode the banking sector's risk-weighted capital adequacy ratio by 6.5ppts to 14 percent, while remaining above the regulatory minimum 8 percent threshold.",
+      "cited": [
+        "S13-09"
+      ],
+      "answerable_said": true,
+      "fact_recall": 1.0,
+      "citations_valid": true,
+      "gold_page_hit": true,
+      "correct_refusal": null,
+      "faithfulness": 5,
+      "completeness": 5,
+      "relevance": 5,
+      "judge_note": "The answer accurately and completely reflects the information given in the context.",
+      "context_chunks": 8,
+      "sub_questions": [
+        "What is the baseline capital adequacy ratio (CAR) of the banking sector prior to stress testing?",
+        "What is the total banking sector credit exposure to the government?",
+        "By how many percentage points does the capital adequacy ratio decline under a 10 percent sovereign impairment shock?"
+      ],
+      "pool_unique": 26
+    },
+    {
+      "id": "Q6",
+      "question": "How is inflation expected to evolve in 2026 and over the medium term?",
+      "retrieved": [
+        "S04-01",
+        "S11-27",
+        "S21-03",
+        "S11-01",
+        "S19-49",
+        "S05-09",
+        "S19-10",
+        "S10-01"
+      ],
+      "answer": "Inflation is set to accelerate to 3.9 percent by end-2026 (with a period average of 3.0 percent in 2026), reflecting import price pressures from a global oil price shock. Over the medium term, inflation is projected to gradually decline and stabilize at around 2.2 percent (with period average inflation reaching 2.3 percent in 2027 and 2.2 percent in 2028–2031) as external pressures unwind and align with key trading partners' price trends.",
+      "cited": [
+        "S04-01",
+        "S11-01",
+        "S19-10",
+        "S21-03"
+      ],
+      "answerable_said": true,
+      "fact_recall": 1.0,
+      "citations_valid": true,
+      "gold_page_hit": true,
+      "correct_refusal": null,
+      "faithfulness": 5,
+      "completeness": 5,
+      "relevance": 5,
+      "judge_note": "The answer accurately and completely summarizes the projections and underlying drivers for inflation in 2026 and over the medium term using both the narrative text and the economic indicators table provided in the context.",
+      "context_chunks": 8,
+      "sub_questions": [
+        "What is the projected headline consumer price inflation rate for 2026?",
+        "What is the expected medium-term trajectory for end-of-period inflation?",
+        "What key factors and external price pressures are expected to anchor inflation over the medium-term projection horizon?"
+      ],
+      "pool_unique": 19
+    },
+    {
+      "id": "Q7",
+      "question": "What exchange rate arrangement does Dominica have and at what rate is its currency pegged?",
+      "retrieved": [
+        "S12-06",
+        "S13-13",
+        "S20-02",
+        "S18-07",
+        "S11-09",
+        "S02-01",
+        "S11-39",
+        "S20-03"
+      ],
+      "answer": "Dominica's exchange rate arrangement is a currency board. Its currency, the Eastern Caribbean dollar, is pegged to the U.S. dollar at the rate of \"EC$2.70 per U.S. dollar since July 1976\".",
+      "cited": [
+        "S20-02",
+        "S20-03"
+      ],
+      "answerable_said": true,
+      "fact_recall": 1.0,
+      "citations_valid": true,
+      "gold_page_hit": true,
+      "correct_refusal": null,
+      "faithfulness": 5,
+      "completeness": 5,
+      "relevance": 5,
+      "judge_note": "The answer accurately, faithfully, and completely addresses both parts of the question using the provided context.",
+      "context_chunks": 8,
+      "sub_questions": [
+        "What type of exchange rate arrangement does Dominica maintain as a member of the ECCU?",
+        "To which foreign currency is the Eastern Caribbean dollar (EC$) pegged?",
+        "At what fixed exchange rate is the Eastern Caribbean dollar pegged to the US dollar?"
+      ],
+      "pool_unique": 17
+    },
+    {
+      "id": "Q8",
+      "question": "How well capitalised are Dominica's credit unions according to the report?",
+      "retrieved": [
+        "S11-09",
+        "S10-10",
+        "S02-01",
+        "S11-39",
+        "S13-02",
+        "S15-04",
+        "S19-09",
+        "S10-08"
+      ],
+      "answer": "Dominica's credit unions have \"thin capital buffers,\" and capital ratios are unevenly distributed with \"low capital adequacy among half of the CUs.\" Although capital at the aggregate level is \"slowly improving,\" the capital ratios of all credit unions \"have been bolstered to surpass 6 percent, and half of the CUs have a ratio above 10 percent.\"",
+      "cited": [
+        "S10-08",
+        "S13-02",
+        "S15-04"
+      ],
+      "answerable_said": true,
+      "fact_recall": 1.0,
+      "citations_valid": true,
+      "gold_page_hit": true,
+      "correct_refusal": null,
+      "faithfulness": 5,
+      "completeness": 5,
+      "relevance": 5,
+      "judge_note": "The answer directly and accurately synthesizes all key qualitative assessments and quantitative metrics regarding credit union capitalization provided in the text.",
+      "context_chunks": 8,
+      "sub_questions": [
+        "What is the capital adequacy ratio for credit unions in Dominica?",
+        "Do credit unions in Dominica meet regulatory capital requirements and buffers?",
+        "How do non-performing loans (NPLs) affect the capital position of Dominica's credit union sector?"
+      ],
+      "pool_unique": 18
+    },
+    {
+      "id": "Q9",
+      "question": "What countercyclical capital buffer rate has been set for Dominica's banks?",
+      "retrieved": [
+        "S11-39",
+        "S05-01",
+        "S19-15",
+        "S19-09",
+        "S13-02",
+        "S13-13",
+        "S11-09",
+        "S18-01"
+      ],
+      "answer": "I am sorry, but the provided contexts do not contain information about the countercyclical capital buffer rate set for Dominica's banks.",
+      "cited": [],
+      "answerable_said": false,
+      "fact_recall": null,
+      "citations_valid": true,
+      "gold_page_hit": null,
+      "correct_refusal": true,
+      "faithfulness": 5,
+      "completeness": 5,
+      "relevance": 5,
+      "judge_note": "The context does not contain information about the countercyclical capital buffer rate for Dominica's banks. The answer correctly and faithfully identifies this absence.",
+      "context_chunks": 8,
+      "sub_questions": [
+        "Has the ECCB activated a countercyclical capital buffer (CCyB) requirement for commercial banks in Dominica?",
+        "What is the current macroprudential capital buffer rate or requirement set by the ECCB for the ECCU region?",
+        "What are the baseline capital adequacy ratio (CAR) requirements and prudential buffers for Dominica's banking sector?"
+      ],
+      "pool_unique": 19
+    }
+  ],
+  "sub_questions": {
+    "Q1": [
+      "What was Dominica's estimated real GDP growth rate in 2025?",
+      "What is the projected real GDP growth rate for Dominica in 2026?",
+      "What is Dominica's projected medium-term real GDP growth outlook in the macroeconomic framework?"
+    ],
+    "Q2": [
+      "What is Dominica's total public debt-to-GDP ratio?",
+      "What is the ECCU regional debt benchmark target?",
+      "What is the projected trajectory of Dominica's public debt relative to the regional target?"
+    ],
+    "Q3": [
+      "What primary surplus level does IMF staff recommend?",
+      "By which target year is public debt projected to fall below 60 percent of GDP?",
+      "What fiscal trajectory or anchor is recommended to achieve the 60 percent debt-to-GDP threshold?"
+    ],
+    "Q4": [
+      "What is the projected commercial bank NPL ratio for Dominica in 2025?",
+      "How does Dominica's commercial bank NPL ratio compare to the ECCB benchmark target?",
+      "What trends in asset quality and non-performing loans are reported for Dominica's banking sector?"
+    ],
+    "Q5": [
+      "What is the baseline capital adequacy ratio (CAR) of the banking sector prior to stress testing?",
+      "What is the total banking sector credit exposure to the government?",
+      "By how many percentage points does the capital adequacy ratio decline under a 10 percent sovereign impairment shock?"
+    ],
+    "Q6": [
+      "What is the projected headline consumer price inflation rate for 2026?",
+      "What is the expected medium-term trajectory for end-of-period inflation?",
+      "What key factors and external price pressures are expected to anchor inflation over the medium-term projection horizon?"
+    ],
+    "Q7": [
+      "What type of exchange rate arrangement does Dominica maintain as a member of the ECCU?",
+      "To which foreign currency is the Eastern Caribbean dollar (EC$) pegged?",
+      "At what fixed exchange rate is the Eastern Caribbean dollar pegged to the US dollar?"
+    ],
+    "Q8": [
+      "What is the capital adequacy ratio for credit unions in Dominica?",
+      "Do credit unions in Dominica meet regulatory capital requirements and buffers?",
+      "How do non-performing loans (NPLs) affect the capital position of Dominica's credit union sector?"
+    ],
+    "Q9": [
+      "Has the ECCB activated a countercyclical capital buffer (CCyB) requirement for commercial banks in Dominica?",
+      "What is the current macroprudential capital buffer rate or requirement set by the ECCB for the ECCU region?",
+      "What are the baseline capital adequacy ratio (CAR) requirements and prudential buffers for Dominica's banking sector?"
+    ]
+  }
+}

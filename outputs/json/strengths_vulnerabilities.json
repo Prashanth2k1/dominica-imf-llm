@@ -1,0 +1,325 @@
+{
+  "final": {
+    "strengths": [
+      {
+        "id": "S1",
+        "point": "Economic expansion supported by strong tourism recovery and strategic developments",
+        "quote": "Real GDP growth accelerated to 4.5 percent in 2025 from 3.5 percent in 2024, supported by robust tourism—now 36 percent above pre-pandemic levels—and strategic infrastructure developments.",
+        "pdf_page": 2,
+        "quote_on_page": true,
+        "judge_ok": true,
+        "judge_reason": "The quote appears verbatim on page 2 and fully supports the point regarding economic expansion driven by tourism and infrastructure.",
+        "kept": true
+      },
+      {
+        "id": "S2",
+        "point": "Stable and liquid financial system with adequately capitalized banks",
+        "quote": "The financial system remains stable and liquid. Banks are adequately capitalized, though sovereign and overseas exposures remain elevated alongside persistently high non-performing loan (NPL) ratios.",
+        "pdf_page": 2,
+        "quote_on_page": true,
+        "judge_ok": true,
+        "judge_reason": "The quote appears verbatim on page 2 and directly supports the point that the financial system is stable and liquid with adequately capitalized banks.",
+        "kept": true
+      },
+      {
+        "id": "S4",
+        "point": "Implementation of major flagship projects to raise long-term economic potential",
+        "quote": "The post-pandemic rebound has been underpinned by major flagship projects to boost economic potential.",
+        "pdf_page": 9,
+        "quote_on_page": true,
+        "judge_ok": true,
+        "judge_reason": "The quote is present verbatim in paragraph 1 on page 9 and supports the point.",
+        "kept": true
+      },
+      {
+        "id": "S5",
+        "point": "Digitalization of public services to boost business environment and productivity",
+        "quote": "Implementation of the Caribbean Digital Transformation Project (extended to 2028) is central to improving the business environment and productivity.",
+        "pdf_page": 25,
+        "quote_on_page": true,
+        "judge_ok": true,
+        "judge_reason": "The quote is found verbatim under the digital transformation bullet on page 25 and supports the point.",
+        "kept": true
+      },
+      {
+        "id": "S6",
+        "point": "Easing domestic inflation driven by softening prices of imported goods",
+        "quote": "Inflation continued to ease, averaging 2.3 percent in 2025, reflecting softening prices of imported goods.",
+        "pdf_page": 2,
+        "quote_on_page": true,
+        "judge_ok": true,
+        "judge_reason": "The quote appears verbatim on page 2 and supports the point about easing inflation due to softer import prices.",
+        "kept": true
+      },
+      {
+        "id": "S7",
+        "point": "Proactive measures to strengthen governance and security of Citizenship by Investment",
+        "quote": "The authorities have also proactively strengthened the CBI program, including by the swift adoption of the regionally agreed Six Principles (2023), establishment of a dedicated due diligence and security screening function",
+        "pdf_page": 19,
+        "quote_on_page": true,
+        "judge_ok": true,
+        "judge_reason": "The quote matches text in paragraph 15 on page 19 verbatim and directly supports the point.",
+        "kept": true
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "id": "V1",
+        "point": "Elevated current account deficit caused by high construction-related import demands",
+        "quote": "The current account deficit was elevated at 38 percent of GDP in 2025, primarily reflecting high construction-related imports tied to macro-critical infrastructure projects.",
+        "pdf_page": 2,
+        "quote_on_page": true,
+        "judge_ok": true,
+        "judge_reason": "The quote appears verbatim on page 2 and directly supports the point that elevated current account deficits are driven by construction-related imports.",
+        "kept": true
+      },
+      {
+        "id": "V2",
+        "point": "High public debt ratio remaining far above regional benchmark targets",
+        "quote": "Public debt has declined sharply from its post-pandemic peak of 118 percent of GDP but remains high at 103 percent of GDP, well above the 60 percent regional benchmark.",
+        "pdf_page": 2,
+        "quote_on_page": true,
+        "judge_ok": true,
+        "judge_reason": "The quote appears verbatim on page 2 and confirms public debt remains elevated at 103 percent of GDP, well above the 60 percent regional benchmark.",
+        "kept": true
+      },
+      {
+        "id": "V5",
+        "point": "Exposure to frequent natural disasters and climate-related economic shocks",
+        "quote": "Context. Dominica is a small developing state confronting large economic imbalances, natural disasters (NDs), and substantial development needs amid slowing potential growth since the 1980s.",
+        "pdf_page": 6,
+        "quote_on_page": true,
+        "judge_ok": true,
+        "judge_reason": "The quote appears verbatim under the Key Issues Context on page 6 and directly supports the point regarding exposure to natural disasters and economic shocks.",
+        "kept": true
+      },
+      {
+        "id": "V6",
+        "point": "Heavy dependence on imported food and primary energy fossil fuels",
+        "quote": "Heavy reliance on a narrow set of tourism and import source markets, alongside a high import dependence—notably food and fossil fuels (comprising 90 percent of primary energy use)—are key sources of vulnerability",
+        "pdf_page": 12,
+        "quote_on_page": true,
+        "judge_ok": true,
+        "judge_reason": "The quote appears verbatim in paragraph 5 on page 12 and confirms the vulnerability arising from high import dependence on food and fossil fuels.",
+        "kept": true
+      },
+      {
+        "id": "V7",
+        "point": "Weak institutional capacity in public financial management and statistical compilation",
+        "quote": "Underdeveloped institutional frameworks complicate policy formulation, monitoring, and execution. Deficiencies are most acute in statistical compilation and public financial management (PFM).",
+        "pdf_page": 25,
+        "quote_on_page": true,
+        "judge_ok": true,
+        "judge_reason": "The quote appears verbatim in paragraph 28 on page 25 and directly supports the point regarding deficiencies in statistical compilation and public financial management.",
+        "kept": true
+      }
+    ]
+  },
+  "all_checked": {
+    "strengths": [
+      {
+        "id": "S1",
+        "point": "Economic expansion supported by strong tourism recovery and strategic developments",
+        "quote": "Real GDP growth accelerated to 4.5 percent in 2025 from 3.5 percent in 2024, supported by robust tourism—now 36 percent above pre-pandemic levels—and strategic infrastructure developments.",
+        "pdf_page": 2,
+        "quote_on_page": true,
+        "judge_ok": true,
+        "judge_reason": "The quote appears verbatim on page 2 and fully supports the point regarding economic expansion driven by tourism and infrastructure.",
+        "kept": true
+      },
+      {
+        "id": "S2",
+        "point": "Stable and liquid financial system with adequately capitalized banks",
+        "quote": "The financial system remains stable and liquid. Banks are adequately capitalized, though sovereign and overseas exposures remain elevated alongside persistently high non-performing loan (NPL) ratios.",
+        "pdf_page": 2,
+        "quote_on_page": true,
+        "judge_ok": true,
+        "judge_reason": "The quote appears verbatim on page 2 and directly supports the point that the financial system is stable and liquid with adequately capitalized banks.",
+        "kept": true
+      },
+      {
+        "id": "S3",
+        "point": "Structural reduction in fuel import dependence through geothermal power generation",
+        "quote": "The baseline outlook incorporates a structural decline in fuel import needs for electricity generation by roughly 20 percent following the commissioning of the geothermal power plant in the first half of 2026.",
+        "pdf_page": 11,
+        "quote_on_page": false,
+        "judge_ok": false,
+        "judge_reason": "The quote does not appear on page 11; the text and footnote state related points using different phrasing.",
+        "kept": false
+      },
+      {
+        "id": "S4",
+        "point": "Implementation of major flagship projects to raise long-term economic potential",
+        "quote": "The post-pandemic rebound has been underpinned by major flagship projects to boost economic potential.",
+        "pdf_page": 9,
+        "quote_on_page": true,
+        "judge_ok": true,
+        "judge_reason": "The quote is present verbatim in paragraph 1 on page 9 and supports the point.",
+        "kept": true
+      },
+      {
+        "id": "S5",
+        "point": "Digitalization of public services to boost business environment and productivity",
+        "quote": "Implementation of the Caribbean Digital Transformation Project (extended to 2028) is central to improving the business environment and productivity.",
+        "pdf_page": 25,
+        "quote_on_page": true,
+        "judge_ok": true,
+        "judge_reason": "The quote is found verbatim under the digital transformation bullet on page 25 and supports the point.",
+        "kept": true
+      },
+      {
+        "id": "S6",
+        "point": "Easing domestic inflation driven by softening prices of imported goods",
+        "quote": "Inflation continued to ease, averaging 2.3 percent in 2025, reflecting softening prices of imported goods.",
+        "pdf_page": 2,
+        "quote_on_page": true,
+        "judge_ok": true,
+        "judge_reason": "The quote appears verbatim on page 2 and supports the point about easing inflation due to softer import prices.",
+        "kept": true
+      },
+      {
+        "id": "S7",
+        "point": "Proactive measures to strengthen governance and security of Citizenship by Investment",
+        "quote": "The authorities have also proactively strengthened the CBI program, including by the swift adoption of the regionally agreed Six Principles (2023), establishment of a dedicated due diligence and security screening function",
+        "pdf_page": 19,
+        "quote_on_page": true,
+        "judge_ok": true,
+        "judge_reason": "The quote matches text in paragraph 15 on page 19 verbatim and directly supports the point.",
+        "kept": true
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "id": "V1",
+        "point": "Elevated current account deficit caused by high construction-related import demands",
+        "quote": "The current account deficit was elevated at 38 percent of GDP in 2025, primarily reflecting high construction-related imports tied to macro-critical infrastructure projects.",
+        "pdf_page": 2,
+        "quote_on_page": true,
+        "judge_ok": true,
+        "judge_reason": "The quote appears verbatim on page 2 and directly supports the point that elevated current account deficits are driven by construction-related imports.",
+        "kept": true
+      },
+      {
+        "id": "V2",
+        "point": "High public debt ratio remaining far above regional benchmark targets",
+        "quote": "Public debt has declined sharply from its post-pandemic peak of 118 percent of GDP but remains high at 103 percent of GDP, well above the 60 percent regional benchmark.",
+        "pdf_page": 2,
+        "quote_on_page": true,
+        "judge_ok": true,
+        "judge_reason": "The quote appears verbatim on page 2 and confirms public debt remains elevated at 103 percent of GDP, well above the 60 percent regional benchmark.",
+        "kept": true
+      },
+      {
+        "id": "V3",
+        "point": "Financial vulnerabilities in credit unions, including low capital and high NPLs",
+        "quote": "The credit union sector continues to expand—now accounting for 53 percent of total private sector credit—but faces challenges from high NPLs, limited provisioning buffers, and sector-wide capitalization levels below regulatory requirements.",
+        "pdf_page": 3,
+        "quote_on_page": false,
+        "judge_ok": false,
+        "judge_reason": "The provided quote does not appear in full on page 3; the first half of the sentence ('The credit union sector continues to expand—now accounting for 53 percent of total') is located on page 2.",
+        "kept": false
+      },
+      {
+        "id": "V4",
+        "point": "Shortage of skilled labor and competency gaps hindering labor productivity",
+        "quote": "A shortage of skilled labor―reflecting gaps in quality, competencies, and the number of locally trained professionals —rank as a major labor market barrier.",
+        "pdf_page": 24,
+        "quote_on_page": true,
+        "judge_ok": false,
+        "judge_reason": "Page 24 identifies the shortage of skilled labor as a 'major labor market barrier', but does not state that it is 'hindering labor productivity'.",
+        "kept": false
+      },
+      {
+        "id": "V5",
+        "point": "Exposure to frequent natural disasters and climate-related economic shocks",
+        "quote": "Context. Dominica is a small developing state confronting large economic imbalances, natural disasters (NDs), and substantial development needs amid slowing potential growth since the 1980s.",
+        "pdf_page": 6,
+        "quote_on_page": true,
+        "judge_ok": true,
+        "judge_reason": "The quote appears verbatim under the Key Issues Context on page 6 and directly supports the point regarding exposure to natural disasters and economic shocks.",
+        "kept": true
+      },
+      {
+        "id": "V6",
+        "point": "Heavy dependence on imported food and primary energy fossil fuels",
+        "quote": "Heavy reliance on a narrow set of tourism and import source markets, alongside a high import dependence—notably food and fossil fuels (comprising 90 percent of primary energy use)—are key sources of vulnerability",
+        "pdf_page": 12,
+        "quote_on_page": true,
+        "judge_ok": true,
+        "judge_reason": "The quote appears verbatim in paragraph 5 on page 12 and confirms the vulnerability arising from high import dependence on food and fossil fuels.",
+        "kept": true
+      },
+      {
+        "id": "V7",
+        "point": "Weak institutional capacity in public financial management and statistical compilation",
+        "quote": "Underdeveloped institutional frameworks complicate policy formulation, monitoring, and execution. Deficiencies are most acute in statistical compilation and public financial management (PFM).",
+        "pdf_page": 25,
+        "quote_on_page": true,
+        "judge_ok": true,
+        "judge_reason": "The quote appears verbatim in paragraph 28 on page 25 and directly supports the point regarding deficiencies in statistical compilation and public financial management.",
+        "kept": true
+      }
+    ]
+  },
+  "narrative_pages": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    95,
+    96,
+    97,
+    98
+  ]
+}

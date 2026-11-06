@@ -1,0 +1,722 @@
+[
+  {
+    "year": 2021,
+    "series": "real_gdp_growth",
+    "value": 6.9,
+    "projection": false
+  },
+  {
+    "year": 2022,
+    "series": "real_gdp_growth",
+    "value": 5.6,
+    "projection": false
+  },
+  {
+    "year": 2023,
+    "series": "real_gdp_growth",
+    "value": 4.7,
+    "projection": false
+  },
+  {
+    "year": 2024,
+    "series": "real_gdp_growth",
+    "value": 3.5,
+    "projection": false
+  },
+  {
+    "year": 2025,
+    "series": "real_gdp_growth",
+    "value": 4.5,
+    "projection": false
+  },
+  {
+    "year": 2026,
+    "series": "real_gdp_growth",
+    "value": 3.1,
+    "projection": true
+  },
+  {
+    "year": 2027,
+    "series": "real_gdp_growth",
+    "value": 2.8,
+    "projection": true
+  },
+  {
+    "year": 2028,
+    "series": "real_gdp_growth",
+    "value": 2.7,
+    "projection": true
+  },
+  {
+    "year": 2029,
+    "series": "real_gdp_growth",
+    "value": 2.4,
+    "projection": true
+  },
+  {
+    "year": 2030,
+    "series": "real_gdp_growth",
+    "value": 2.1,
+    "projection": true
+  },
+  {
+    "year": 2031,
+    "series": "real_gdp_growth",
+    "value": 2.0,
+    "projection": true
+  },
+  {
+    "year": 2021,
+    "series": "cpi_inflation_avg",
+    "value": 1.6,
+    "projection": false
+  },
+  {
+    "year": 2022,
+    "series": "cpi_inflation_avg",
+    "value": 7.7,
+    "projection": false
+  },
+  {
+    "year": 2023,
+    "series": "cpi_inflation_avg",
+    "value": 4.2,
+    "projection": false
+  },
+  {
+    "year": 2024,
+    "series": "cpi_inflation_avg",
+    "value": 3.1,
+    "projection": false
+  },
+  {
+    "year": 2025,
+    "series": "cpi_inflation_avg",
+    "value": 2.3,
+    "projection": false
+  },
+  {
+    "year": 2026,
+    "series": "cpi_inflation_avg",
+    "value": 3.0,
+    "projection": true
+  },
+  {
+    "year": 2027,
+    "series": "cpi_inflation_avg",
+    "value": 2.3,
+    "projection": true
+  },
+  {
+    "year": 2028,
+    "series": "cpi_inflation_avg",
+    "value": 2.2,
+    "projection": true
+  },
+  {
+    "year": 2029,
+    "series": "cpi_inflation_avg",
+    "value": 2.2,
+    "projection": true
+  },
+  {
+    "year": 2030,
+    "series": "cpi_inflation_avg",
+    "value": 2.2,
+    "projection": true
+  },
+  {
+    "year": 2031,
+    "series": "cpi_inflation_avg",
+    "value": 2.2,
+    "projection": true
+  },
+  {
+    "year": 2021,
+    "series": "cpi_inflation_eop",
+    "value": 3.5,
+    "projection": false
+  },
+  {
+    "year": 2022,
+    "series": "cpi_inflation_eop",
+    "value": 8.7,
+    "projection": false
+  },
+  {
+    "year": 2023,
+    "series": "cpi_inflation_eop",
+    "value": 2.5,
+    "projection": false
+  },
+  {
+    "year": 2024,
+    "series": "cpi_inflation_eop",
+    "value": 2.1,
+    "projection": false
+  },
+  {
+    "year": 2025,
+    "series": "cpi_inflation_eop",
+    "value": 1.6,
+    "projection": false
+  },
+  {
+    "year": 2026,
+    "series": "cpi_inflation_eop",
+    "value": 3.9,
+    "projection": true
+  },
+  {
+    "year": 2027,
+    "series": "cpi_inflation_eop",
+    "value": 1.8,
+    "projection": true
+  },
+  {
+    "year": 2028,
+    "series": "cpi_inflation_eop",
+    "value": 2.2,
+    "projection": true
+  },
+  {
+    "year": 2029,
+    "series": "cpi_inflation_eop",
+    "value": 2.2,
+    "projection": true
+  },
+  {
+    "year": 2030,
+    "series": "cpi_inflation_eop",
+    "value": 2.2,
+    "projection": true
+  },
+  {
+    "year": 2031,
+    "series": "cpi_inflation_eop",
+    "value": 2.2,
+    "projection": true
+  },
+  {
+    "year": 2021,
+    "series": "private_credit_growth",
+    "value": 3.6,
+    "projection": false
+  },
+  {
+    "year": 2022,
+    "series": "private_credit_growth",
+    "value": 2.7,
+    "projection": false
+  },
+  {
+    "year": 2023,
+    "series": "private_credit_growth",
+    "value": -3.6,
+    "projection": false
+  },
+  {
+    "year": 2024,
+    "series": "private_credit_growth",
+    "value": -1.5,
+    "projection": false
+  },
+  {
+    "year": 2025,
+    "series": "private_credit_growth",
+    "value": 1.6,
+    "projection": false
+  },
+  {
+    "year": 2026,
+    "series": "private_credit_growth",
+    "value": 3.4,
+    "projection": true
+  },
+  {
+    "year": 2027,
+    "series": "private_credit_growth",
+    "value": 4.7,
+    "projection": true
+  },
+  {
+    "year": 2028,
+    "series": "private_credit_growth",
+    "value": 6.0,
+    "projection": true
+  },
+  {
+    "year": 2029,
+    "series": "private_credit_growth",
+    "value": 5.7,
+    "projection": true
+  },
+  {
+    "year": 2030,
+    "series": "private_credit_growth",
+    "value": 4.3,
+    "projection": true
+  },
+  {
+    "year": 2031,
+    "series": "private_credit_growth",
+    "value": 4.2,
+    "projection": true
+  },
+  {
+    "year": 2021,
+    "series": "public_debt_pct_gdp",
+    "value": 116.3,
+    "projection": false
+  },
+  {
+    "year": 2022,
+    "series": "public_debt_pct_gdp",
+    "value": 110.0,
+    "projection": false
+  },
+  {
+    "year": 2023,
+    "series": "public_debt_pct_gdp",
+    "value": 101.3,
+    "projection": false
+  },
+  {
+    "year": 2024,
+    "series": "public_debt_pct_gdp",
+    "value": 108.2,
+    "projection": false
+  },
+  {
+    "year": 2025,
+    "series": "public_debt_pct_gdp",
+    "value": 102.6,
+    "projection": false
+  },
+  {
+    "year": 2026,
+    "series": "public_debt_pct_gdp",
+    "value": 98.3,
+    "projection": true
+  },
+  {
+    "year": 2027,
+    "series": "public_debt_pct_gdp",
+    "value": 94.7,
+    "projection": true
+  },
+  {
+    "year": 2028,
+    "series": "public_debt_pct_gdp",
+    "value": 91.4,
+    "projection": true
+  },
+  {
+    "year": 2029,
+    "series": "public_debt_pct_gdp",
+    "value": 88.2,
+    "projection": true
+  },
+  {
+    "year": 2030,
+    "series": "public_debt_pct_gdp",
+    "value": 84.8,
+    "projection": true
+  },
+  {
+    "year": 2031,
+    "series": "public_debt_pct_gdp",
+    "value": 81.6,
+    "projection": true
+  },
+  {
+    "year": 2021,
+    "series": "current_account_pct_gdp",
+    "value": -33.5,
+    "projection": false
+  },
+  {
+    "year": 2022,
+    "series": "current_account_pct_gdp",
+    "value": -27.3,
+    "projection": false
+  },
+  {
+    "year": 2023,
+    "series": "current_account_pct_gdp",
+    "value": -40.4,
+    "projection": false
+  },
+  {
+    "year": 2024,
+    "series": "current_account_pct_gdp",
+    "value": -37.8,
+    "projection": false
+  },
+  {
+    "year": 2025,
+    "series": "current_account_pct_gdp",
+    "value": -38.0,
+    "projection": false
+  },
+  {
+    "year": 2026,
+    "series": "current_account_pct_gdp",
+    "value": -33.2,
+    "projection": true
+  },
+  {
+    "year": 2027,
+    "series": "current_account_pct_gdp",
+    "value": -25.4,
+    "projection": true
+  },
+  {
+    "year": 2028,
+    "series": "current_account_pct_gdp",
+    "value": -20.8,
+    "projection": true
+  },
+  {
+    "year": 2029,
+    "series": "current_account_pct_gdp",
+    "value": -18.3,
+    "projection": true
+  },
+  {
+    "year": 2030,
+    "series": "current_account_pct_gdp",
+    "value": -16.9,
+    "projection": true
+  },
+  {
+    "year": 2031,
+    "series": "current_account_pct_gdp",
+    "value": -16.5,
+    "projection": true
+  },
+  {
+    "year": 2021,
+    "series": "eccb_policy_rate",
+    "value": 2.0,
+    "projection": false
+  },
+  {
+    "year": 2022,
+    "series": "eccb_policy_rate",
+    "value": 2.0,
+    "projection": false
+  },
+  {
+    "year": 2023,
+    "series": "eccb_policy_rate",
+    "value": 2.0,
+    "projection": false
+  },
+  {
+    "year": 2024,
+    "series": "eccb_policy_rate",
+    "value": 3.0,
+    "projection": false
+  },
+  {
+    "year": 2025,
+    "series": "eccb_policy_rate",
+    "value": 3.0,
+    "projection": false
+  },
+  {
+    "year": 2021,
+    "series": "time_deposit_rate",
+    "value": 3.0,
+    "projection": false
+  },
+  {
+    "year": 2022,
+    "series": "time_deposit_rate",
+    "value": 3.1,
+    "projection": false
+  },
+  {
+    "year": 2023,
+    "series": "time_deposit_rate",
+    "value": 3.1,
+    "projection": false
+  },
+  {
+    "year": 2024,
+    "series": "time_deposit_rate",
+    "value": 3.1,
+    "projection": false
+  },
+  {
+    "year": 2025,
+    "series": "time_deposit_rate",
+    "value": 2.9,
+    "projection": false
+  },
+  {
+    "year": 2015,
+    "series": "bank_npl_ratio",
+    "value": 15.1,
+    "projection": false
+  },
+  {
+    "year": 2016,
+    "series": "bank_npl_ratio",
+    "value": 14.5,
+    "projection": false
+  },
+  {
+    "year": 2017,
+    "series": "bank_npl_ratio",
+    "value": 17.4,
+    "projection": false
+  },
+  {
+    "year": 2018,
+    "series": "bank_npl_ratio",
+    "value": 17.0,
+    "projection": false
+  },
+  {
+    "year": 2019,
+    "series": "bank_npl_ratio",
+    "value": 12.2,
+    "projection": false
+  },
+  {
+    "year": 2020,
+    "series": "bank_npl_ratio",
+    "value": 15.0,
+    "projection": false
+  },
+  {
+    "year": 2021,
+    "series": "bank_npl_ratio",
+    "value": 15.7,
+    "projection": false
+  },
+  {
+    "year": 2022,
+    "series": "bank_npl_ratio",
+    "value": 13.8,
+    "projection": false
+  },
+  {
+    "year": 2023,
+    "series": "bank_npl_ratio",
+    "value": 12.9,
+    "projection": false
+  },
+  {
+    "year": 2024,
+    "series": "bank_npl_ratio",
+    "value": 10.7,
+    "projection": false
+  },
+  {
+    "year": 2025,
+    "series": "bank_npl_ratio",
+    "value": 8.9,
+    "projection": false
+  },
+  {
+    "year": 2015,
+    "series": "bank_capital_ratio",
+    "value": 12.9,
+    "projection": false
+  },
+  {
+    "year": 2016,
+    "series": "bank_capital_ratio",
+    "value": 15.6,
+    "projection": false
+  },
+  {
+    "year": 2017,
+    "series": "bank_capital_ratio",
+    "value": 13.3,
+    "projection": false
+  },
+  {
+    "year": 2018,
+    "series": "bank_capital_ratio",
+    "value": 12.5,
+    "projection": false
+  },
+  {
+    "year": 2019,
+    "series": "bank_capital_ratio",
+    "value": 13.9,
+    "projection": false
+  },
+  {
+    "year": 2020,
+    "series": "bank_capital_ratio",
+    "value": 18.9,
+    "projection": false
+  },
+  {
+    "year": 2021,
+    "series": "bank_capital_ratio",
+    "value": 18.3,
+    "projection": false
+  },
+  {
+    "year": 2022,
+    "series": "bank_capital_ratio",
+    "value": 15.9,
+    "projection": false
+  },
+  {
+    "year": 2023,
+    "series": "bank_capital_ratio",
+    "value": 27.5,
+    "projection": false
+  },
+  {
+    "year": 2024,
+    "series": "bank_capital_ratio",
+    "value": 15.0,
+    "projection": false
+  },
+  {
+    "year": 2025,
+    "series": "bank_capital_ratio",
+    "value": 21.0,
+    "projection": false
+  },
+  {
+    "year": 2015,
+    "series": "cu_npl_ratio",
+    "value": 40.93,
+    "projection": false
+  },
+  {
+    "year": 2016,
+    "series": "cu_npl_ratio",
+    "value": 14.53,
+    "projection": false
+  },
+  {
+    "year": 2017,
+    "series": "cu_npl_ratio",
+    "value": 15.06,
+    "projection": false
+  },
+  {
+    "year": 2018,
+    "series": "cu_npl_ratio",
+    "value": 13.89,
+    "projection": false
+  },
+  {
+    "year": 2019,
+    "series": "cu_npl_ratio",
+    "value": 12.7,
+    "projection": false
+  },
+  {
+    "year": 2020,
+    "series": "cu_npl_ratio",
+    "value": 15.31,
+    "projection": false
+  },
+  {
+    "year": 2021,
+    "series": "cu_npl_ratio",
+    "value": 16.79,
+    "projection": false
+  },
+  {
+    "year": 2022,
+    "series": "cu_npl_ratio",
+    "value": 14.61,
+    "projection": false
+  },
+  {
+    "year": 2023,
+    "series": "cu_npl_ratio",
+    "value": 12.83,
+    "projection": false
+  },
+  {
+    "year": 2024,
+    "series": "cu_npl_ratio",
+    "value": 12.54,
+    "projection": false
+  },
+  {
+    "year": 2025,
+    "series": "cu_npl_ratio",
+    "value": 15.05,
+    "projection": false
+  },
+  {
+    "year": 2015,
+    "series": "cu_capital_ratio",
+    "value": 3.38,
+    "projection": false
+  },
+  {
+    "year": 2016,
+    "series": "cu_capital_ratio",
+    "value": 8.75,
+    "projection": false
+  },
+  {
+    "year": 2017,
+    "series": "cu_capital_ratio",
+    "value": 8.13,
+    "projection": false
+  },
+  {
+    "year": 2018,
+    "series": "cu_capital_ratio",
+    "value": 7.64,
+    "projection": false
+  },
+  {
+    "year": 2019,
+    "series": "cu_capital_ratio",
+    "value": 7.58,
+    "projection": false
+  },
+  {
+    "year": 2020,
+    "series": "cu_capital_ratio",
+    "value": 8.19,
+    "projection": false
+  },
+  {
+    "year": 2021,
+    "series": "cu_capital_ratio",
+    "value": 8.48,
+    "projection": false
+  },
+  {
+    "year": 2022,
+    "series": "cu_capital_ratio",
+    "value": 8.17,
+    "projection": false
+  },
+  {
+    "year": 2023,
+    "series": "cu_capital_ratio",
+    "value": 8.11,
+    "projection": false
+  },
+  {
+    "year": 2024,
+    "series": "cu_capital_ratio",
+    "value": 9.08,
+    "projection": false
+  },
+  {
+    "year": 2025,
+    "series": "cu_capital_ratio",
+    "value": 9.42,
+    "projection": false
+  }
+]

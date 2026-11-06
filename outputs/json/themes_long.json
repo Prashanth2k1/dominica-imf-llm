@@ -1,0 +1,72 @@
+[
+  {
+    "theme": "Inflation & Prices",
+    "method": "lexicon_share_pct",
+    "share_pct": 6.6
+  },
+  {
+    "theme": "Interest Rates & Credit",
+    "method": "lexicon_share_pct",
+    "share_pct": 15.4
+  },
+  {
+    "theme": "Housing & Real Estate",
+    "method": "lexicon_share_pct",
+    "share_pct": 1.5
+  },
+  {
+    "theme": "Banking Capital & Liquidity",
+    "method": "lexicon_share_pct",
+    "share_pct": 26.2
+  },
+  {
+    "theme": "Sovereign Debt",
+    "method": "lexicon_share_pct",
+    "share_pct": 26.7
+  },
+  {
+    "theme": "Labor Market Dynamics",
+    "method": "lexicon_share_pct",
+    "share_pct": 8.0
+  },
+  {
+    "theme": "Systemic Financial Risk",
+    "method": "lexicon_share_pct",
+    "share_pct": 15.6
+  },
+  {
+    "theme": "Inflation & Prices",
+    "method": "llm_share_pct",
+    "share_pct": 8.1
+  },
+  {
+    "theme": "Interest Rates & Credit",
+    "method": "llm_share_pct",
+    "share_pct": 13.1
+  },
+  {
+    "theme": "Housing & Real Estate",
+    "method": "llm_share_pct",
+    "share_pct": 1.2
+  },
+  {
+    "theme": "Banking Capital & Liquidity",
+    "method": "llm_share_pct",
+    "share_pct": 18.1
+  },
+  {
+    "theme": "Sovereign Debt",
+    "method": "llm_share_pct",
+    "share_pct": 48.3
+  },
+  {
+    "theme": "Labor Market Dynamics",
+    "method": "llm_share_pct",
+    "share_pct": 2.7
+  },
+  {
+    "theme": "Systemic Financial Risk",
+    "method": "llm_share_pct",
+    "share_pct": 8.5
+  }
+]

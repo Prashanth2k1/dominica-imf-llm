@@ -1,0 +1,650 @@
+[
+  {
+    "id": "S01",
+    "title": "Press Release",
+    "pages": [
+      2,
+      5
+    ],
+    "summary": "Dominica’s economic expansion is positive, but large fiscal and external imbalances create persistent vulnerabilities. Real GDP growth reached 4.5 percent in 2025, while inflation eased to 2.3 percent in 2025. However, the current account deficit stood at 38 percent of GDP in 2025, and public debt remained high at 103 percent of GDP in 2025. The primary deficit reached 4½ percent of GDP in FY2024/25. Downside risks stem from geopolitical conflicts, natural disasters, and revenue uncertainty. The IMF advises further fiscal consolidation, tax base broadening, stricter financial regulation, and structural reforms to enhance resilience.",
+    "words": 94,
+    "revised": false,
+    "trimmed_by_code": false,
+    "draft_scores": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5
+    },
+    "final_scores": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5
+    },
+    "judge_problems": [],
+    "key_figures": [
+      "4.5 percent in 2025",
+      "2.3 percent in 2025",
+      "38 percent of GDP in 2025",
+      "103 percent of GDP in 2025",
+      "4½ percent of GDP in FY2024/25"
+    ],
+    "numbers_found": 1.0
+  },
+  {
+    "id": "S02",
+    "title": "Staff Report: Key Issues",
+    "pages": [
+      6,
+      8
+    ],
+    "summary": "Dominica faces high debt distress risks, with public debt remaining above the regional benchmark of 60 percent of GDP amid slowing potential growth since the 1980s. Medium-term growth is projected to average 3 percent before converging to 2 percent in the long run, whilst inflation is expected to recede to 2.2 percent. The current account should revert to its norm by 2031. Downside risks stem from Middle East conflict, uncertain revenue, and natural disasters. Policy advice focuses on rebuilding fiscal buffers, broadening the domestic revenue base, strengthening credit union oversight, and prioritising digitalisation.",
+    "words": 93,
+    "revised": false,
+    "trimmed_by_code": false,
+    "draft_scores": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5
+    },
+    "final_scores": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5
+    },
+    "judge_problems": [],
+    "key_figures": [
+      "slowing potential growth since the 1980s",
+      "60 percent of GDP regional benchmark",
+      "3 percent medium-term average growth",
+      "2 percent long-run growth",
+      "2.2 percent inflation",
+      "current account norm by 2031"
+    ],
+    "numbers_found": 1.0
+  },
+  {
+    "id": "S03",
+    "title": "Recent developments",
+    "pages": [
+      9,
+      11
+    ],
+    "summary": "Dominica's economy expanded by 3.5 percent in 2024 and an estimated 4.5 percent in 2025, driven by investment and tourism. However, the current account deficit reached 38 percent of GDP in 2025. Although public debt declined to 108.2 percent of GDP in FY2024/25, capital expenditure widened the primary deficit to 4½ percent of GDP in FY2024/25, leaving debt distress risks high. Systemic financial risks persist due to elevated non-performing loan ratios, high sovereign exposure, and rapid expansion in the credit union sector despite weak balance sheets.",
+    "words": 86,
+    "revised": false,
+    "trimmed_by_code": false,
+    "draft_scores": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5
+    },
+    "final_scores": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5
+    },
+    "judge_problems": [],
+    "key_figures": [
+      "3.5 percent in 2024",
+      "4.5 percent in 2025",
+      "38 percent of GDP in 2025",
+      "108.2 percent of GDP in FY2024/25",
+      "4½ percent of GDP in FY2024/25"
+    ],
+    "numbers_found": 1.0
+  },
+  {
+    "id": "S04",
+    "title": "Outlook and risks",
+    "pages": [
+      11,
+      13
+    ],
+    "summary": "Sustained growth and consolidation are expected to ease economic imbalances. Real GDP growth is projected to average 3.0 percent in 2026–27, while inflation accelerates to 3.9 percent by end-2026. The primary balance is projected to reach a surplus of 0.7 percent of GDP in fiscal year 2025/26, with Citizenship by Investment inflows converging to 15¾ percent of GDP over the medium term. Public debt is expected to fall to 102½ percent of GDP in fiscal year 2025/26. Downside risks dominate, particularly from external shocks. Policy advice recommends targeted, temporary support to protect the vulnerable.",
+    "words": 94,
+    "revised": false,
+    "trimmed_by_code": false,
+    "draft_scores": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5
+    },
+    "final_scores": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5
+    },
+    "judge_problems": [],
+    "key_figures": [
+      "3.0 percent in 2026–27",
+      "3.9 percent by end-2026",
+      "0.7 percent of GDP in fiscal year 2025/26",
+      "15¾ percent of GDP in the medium term",
+      "102½ percent of GDP in fiscal year 2025/26"
+    ],
+    "numbers_found": 1.0
+  },
+  {
+    "id": "S05",
+    "title": "A. Rebuilding Fiscal Buffers",
+    "pages": [
+      13,
+      18
+    ],
+    "summary": "Dominica's current fiscal policy is insufficient to reduce debt-distress risks. Under current policies, the primary surplus reaches 0.7 percent of GDP in FY2025/26 and 2 percent of GDP by FY2030/31. Staff advise EC$60 million in additional consolidation over two years to sustain a 3.4 percent of GDP primary surplus from FY2027/28. This active scenario reduces public debt to 59.5 percent of GDP by 2035 and raises vulnerability fund balances to 12 percent of GDP by 2034. Additionally, pension reforms are needed to prevent reserve depletion by 2050.",
+    "words": 87,
+    "revised": false,
+    "trimmed_by_code": false,
+    "draft_scores": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5
+    },
+    "final_scores": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5
+    },
+    "judge_problems": [],
+    "key_figures": [
+      "0.7 percent of GDP in FY2025/26",
+      "2 percent of GDP by FY2030/31",
+      "EC$60 million over two fiscal years",
+      "3.4 percent of GDP from FY2027/28",
+      "59.5 percent of GDP by 2035",
+      "12 percent of GDP by 2034"
+    ],
+    "numbers_found": 1.0
+  },
+  {
+    "id": "S06",
+    "title": "B. Strengthening Financial System Resilience and Intermediation",
+    "pages": [
+      18,
+      20
+    ],
+    "summary": "Dominica must address elevated non-performing loans, thin capital buffers, and credit frictions to strengthen financial resilience. Policy advice focuses on updating credit union regulations and modernising insolvency frameworks. Risks stem from high sovereign exposures and remaining anti-money laundering deficiencies. In the 2023 CFATF evaluation, Dominica was compliant in 33 of 40 recommendations (83 percent), which could rise to 90 percent in May 2026. Revised credit union regulations are expected to become operational in 2026, asset quality reviews should complete by end-2027, and the next ECCB safeguards assessment is scheduled for early 2027.",
+    "words": 92,
+    "revised": false,
+    "trimmed_by_code": false,
+    "draft_scores": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5
+    },
+    "final_scores": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5
+    },
+    "judge_problems": [],
+    "key_figures": [
+      "33 of 40 recommendations (83 percent) in 2023",
+      "90 percent in May 2026",
+      "operational in 2026",
+      "end-2027",
+      "early 2027"
+    ],
+    "numbers_found": 1.0
+  },
+  {
+    "id": "S07",
+    "title": "C. Strengthening Long-Term Growth Prospects",
+    "pages": [
+      20,
+      25
+    ],
+    "summary": "Dominica’s growth potential has declined due to structural impediments and severe connectivity constraints. Dominica under-trades outside the Caribbean by an estimated 1.3 percent of GDP in goods exports, whilst regional freight costs averaged roughly three times the global average from 2016 to 2019. Key risks include Citizenship by Investment inflow volatility and third-country visa policy changes. Policy advice emphasises completing high-impact capital projects—notably the international airport expected in 2027 and advancing the geothermal transition following the commissioning of the 10MW powerplant—alongside digitalising public services, modernising trade agreements, and resolving labor skills shortages.",
+    "words": 92,
+    "revised": false,
+    "trimmed_by_code": false,
+    "draft_scores": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5
+    },
+    "final_scores": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5
+    },
+    "judge_problems": [],
+    "key_figures": [
+      "1.3 percent of GDP in goods exports",
+      "roughly three times the global average for average freight cost between 2016 and 2019",
+      "10MW delivered by the commissioned geothermal powerplant",
+      "2027 for expected international airport completion"
+    ],
+    "numbers_found": 1.0
+  },
+  {
+    "id": "S08",
+    "title": "D. Institutional and Data Issues",
+    "pages": [
+      25,
+      26
+    ],
+    "summary": "Underdeveloped institutional frameworks in statistics and public financial management complicate policy formulation. Weaknesses risk undermining the fiscal rule and disaster self-insurance mechanisms. Staff advise establishing the Fiscal Responsibility Committee, framing budgets around a policy-based three-year framework, and introducing mid-year budget reviews. The authorities are upgrading database protocols, introducing top-down budgeting, and rebasing gross domestic product, with publication of the revised series through 2025 expected by the end of the fiscal year.",
+    "words": 71,
+    "revised": false,
+    "trimmed_by_code": false,
+    "draft_scores": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5
+    },
+    "final_scores": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5
+    },
+    "judge_problems": [],
+    "key_figures": [
+      "2025 (refers to the year 2025)"
+    ],
+    "numbers_found": null
+  },
+  {
+    "id": "S09",
+    "title": "Staff appraisal",
+    "pages": [
+      26,
+      27
+    ],
+    "summary": "Real GDP growth is projected to average 3.0 percent in 2026–27 before easing to around 2 percent. Under current policies, the primary surplus reaches 2 percent of GDP by FY2030/31, lowering public debt to around 70 percent by 2035, though downside risks persist. Staff advise maintaining a primary surplus of roughly 3½ percent of GDP from FY2026/27 onward to cut debt below 60 percent of GDP by 2035. Policy recommendations also highlight strengthening financial regulation, enhancing trade connectivity, reforming the Citizenship by Investment program, and upgrading public financial management frameworks.",
+    "words": 90,
+    "revised": false,
+    "trimmed_by_code": false,
+    "draft_scores": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5
+    },
+    "final_scores": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5
+    },
+    "judge_problems": [],
+    "key_figures": [
+      "3.0 percent in 2026–27",
+      "2 percent of GDP by FY2030/31",
+      "70 percent by 2035",
+      "3½ percent of GDP from FY2026/27",
+      "60 percent of GDP by 2035"
+    ],
+    "numbers_found": 1.0
+  },
+  {
+    "id": "S10",
+    "title": "Figures 1-5",
+    "pages": [
+      28,
+      32
+    ],
+    "summary": "Dominica's real GDP growth in 2024 and 2025 was driven by trade and tourism. In 2025, the external position deteriorated slightly owing to a widening trade deficit from infrastructure project imports, although the external debt-to-GDP ratio declined. Citizenship by Investment flows provided the main external financing in 2025. In fiscal year 2024, public debt remained well above the ECCU regional prudential benchmark of 60 percent of GDP. Financial sector risks persisted through 2025, as non-performing loan ratios for commercial banks and credit unions remained elevated.",
+    "words": 85,
+    "revised": true,
+    "trimmed_by_code": false,
+    "draft_scores": {
+      "consistency": 5,
+      "completeness": 4,
+      "factual_alignment": 5
+    },
+    "final_scores": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5
+    },
+    "judge_problems": [
+      "The summary omits external sector developments depicted in Figure 2, such as the widening trade deficit, import pressures from infrastructure projects, and external debt trends."
+    ],
+    "key_figures": [
+      "60 percent (fiscal year 2024)"
+    ],
+    "numbers_found": 1.0
+  },
+  {
+    "id": "S11",
+    "title": "Statistical Tables",
+    "pages": [
+      33,
+      38
+    ],
+    "summary": "The statistical tables illustrate Dominica’s economic indicators and projections from 2021 to 2031. Real GDP growth moderates from 6.9 percent in 2021 and 4.7 percent in 2023 to a projected 3.5 percent in 2024. The current account deficit is projected to remain high at 37.8 percent of GDP in 2024, following 40.4 percent of GDP in 2023. Meanwhile, central government debt is projected at 108.2 percent of GDP in fiscal year 2024, rising from 101.3 percent of GDP in fiscal year 2023.",
+    "words": 82,
+    "revised": false,
+    "trimmed_by_code": false,
+    "draft_scores": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5
+    },
+    "final_scores": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5
+    },
+    "judge_problems": [],
+    "key_figures": [
+      "Real GDP growth of 6.9 percent in 2021",
+      "Real GDP growth of 4.7 percent in 2023",
+      "Real GDP growth of 3.5 percent in 2024",
+      "Current account deficit of 40.4 percent of GDP in 2023",
+      "Current account deficit of 37.8 percent of GDP in 2024",
+      "Central government debt of 108.2 percent of GDP in fiscal year 2024"
+    ],
+    "numbers_found": 1.0
+  },
+  {
+    "id": "S12",
+    "title": "Annex I. External Sector Assessment",
+    "pages": [
+      39,
+      41
+    ],
+    "summary": "Dominica’s external position in 2025 is substantially weaker than the level implied by medium-term fundamentals. The current account deficit is estimated at 38 percent of GDP in 2025, generating a current account gap of 21.3 percent of GDP against a norm of -16.7 percent of GDP, while the net international investment position is -71.0 percent of GDP in 2025. Vulnerability to natural disasters and high import reliance create significant risks. Policy advice calls for stronger fiscal consolidation, greater allocations to self-insurance, resilience building, and structural reforms to enhance productivity and competitiveness.",
+    "words": 91,
+    "revised": false,
+    "trimmed_by_code": false,
+    "draft_scores": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5
+    },
+    "final_scores": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5
+    },
+    "judge_problems": [],
+    "key_figures": [
+      "38 percent of GDP in 2025",
+      "21.3 percent of GDP in 2025",
+      "-16.7 percent of GDP in 2025",
+      "-71.0 percent of GDP in 2025"
+    ],
+    "numbers_found": 1.0
+  },
+  {
+    "id": "S13",
+    "title": "Annex II. An Overview of Macro-Financial Linkages in Dominica",
+    "pages": [
+      42,
+      48
+    ],
+    "summary": "Dominica’s macro-financial landscape is marked by rapid credit union expansion, a deepened sovereign-bank nexus, and growing external balance sheet vulnerabilities. The economy’s net exposure to the rest of the world increased from 36 percent of GDP in 2019 to 65 percent of GDP in 2024, while non-financial corporation liabilities rose from 80 percent of GDP in 2019 to 91 percent of GDP in 2024. Rising credit union balance-sheet risks and heavy sovereign exposures threaten financial stability. Authorities should strengthen risk monitoring, address structural constraints to domestic credit intermediation, lower public financing needs, and enhance regional supervision coordination.",
+    "words": 97,
+    "revised": false,
+    "trimmed_by_code": false,
+    "draft_scores": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5
+    },
+    "final_scores": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5
+    },
+    "judge_problems": [],
+    "key_figures": [
+      "36 percent of GDP in 2019",
+      "65 percent of GDP in 2024",
+      "80 percent of GDP in 2019",
+      "91 percent of GDP in 2024"
+    ],
+    "numbers_found": 1.0
+  },
+  {
+    "id": "S14",
+    "title": "Annex III. Risk Assessment Matrix",
+    "pages": [
+      49,
+      51
+    ],
+    "summary": "Dominica faces significant external, domestic, and structural risks. High-likelihood risks include geopolitical tensions, trade disruptions, commodity price volatility, fiscal vulnerabilities, cyberthreats, and rising arrears. Crucial policy advice includes implementing a medium-term fiscal consolidation strategy, operationalising the fiscal framework, finalising the energy transition to geothermal power, building climate resilience, and strengthening social safety nets. Staff assess likelihoods based on probabilities: low is below 10 percent, medium is between 10 and 30 percent, and high is between 30 and 50 percent, with short-term conjunctural risks expected to materialise over 12 to 18 months.",
+    "words": 91,
+    "revised": false,
+    "trimmed_by_code": false,
+    "draft_scores": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5
+    },
+    "final_scores": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5
+    },
+    "judge_problems": [],
+    "key_figures": [
+      "below 10 percent (no year printed)",
+      "between 10 and 30 percent (no year printed)",
+      "between 30 and 50 percent (no year printed)",
+      "12 and 18 months (no year printed)"
+    ],
+    "numbers_found": 1.0
+  },
+  {
+    "id": "S15",
+    "title": "Annex IV. Implementation of Fund’s Past Policy Advice",
+    "pages": [
+      52,
+      55
+    ],
+    "summary": "Dominica has made partial or ongoing progress in implementing previous Fund policy advice. Expenditure control reduced goods and services spending to 11.8 percent of GDP in FY2024/25, a fall of 1.1 percent of GDP. Financial resilience buffers expanded, with the Vulnerability and Resilience Fund reaching 1.2 percent of GDP and the Debt Repayment Fund reaching around 0.1 percent of GDP by March 2026. However, policy advice on property and income tax reforms remains under consideration. The Fund advises completing parametric pension reforms, modernising insolvency frameworks, and addressing fiscal reporting lags to mitigate economic risks.",
+    "words": 94,
+    "revised": false,
+    "trimmed_by_code": false,
+    "draft_scores": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5
+    },
+    "final_scores": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5
+    },
+    "judge_problems": [],
+    "key_figures": [
+      "11.8 percent of GDP in FY2024/25",
+      "1.1 percent of GDP in FY2024/25",
+      "1.2 percent of GDP by March 2026",
+      "0.1 percent of GDP by March 2026"
+    ],
+    "numbers_found": 1.0
+  },
+  {
+    "id": "S16",
+    "title": "Annex V. Trade Integration: Connectivity Challenges and Strategies for Overcoming Barriers",
+    "pages": [
+      56,
+      60
+    ],
+    "summary": "Weak connectivity constrains Dominica’s trade and tourism. In 2021, structural barriers created a US$7.3 million export gap outside the Caribbean, equal to 1.3 percent of GDP, while actual trade with Europe and the United States reached one-third of model predictions despite gains since 2018. Shipping costs are three times the global average. On air connectivity, flight capacity has an estimated elasticity of 0.6, where a 10 percent increase in capacity associates with roughly a 6 percent increase in tourist arrivals. Policy priorities focus on customs streamlining alongside port and airport modernisation.",
+    "words": 91,
+    "revised": true,
+    "trimmed_by_code": false,
+    "draft_scores": {
+      "consistency": 5,
+      "completeness": 4,
+      "factual_alignment": 5
+    },
+    "final_scores": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5
+    },
+    "judge_problems": [
+      "Missing key finding on air connectivity: flight capacity has an estimated elasticity of 0.6, where a 10 percent increase in flight capacity associates with roughly a 6 percent increase in tourist arrivals."
+    ],
+    "key_figures": [
+      "US$7.3 million in 2021",
+      "1.3 percent of GDP in 2021",
+      "gains since 2018",
+      "three times global average",
+      "elasticity of 0.6",
+      "10 percent increase associating with 6 percent increase"
+    ],
+    "numbers_found": 1.0
+  },
+  {
+    "id": "S17",
+    "title": "Annex VI. A Model-based Approach to Decoding Dominica’s Growth Drivers",
+    "pages": [
+      61,
+      64
+    ],
+    "summary": "Econometric modelling using data from 1990 onwards shows a 1 ppt increase in tourism receipts raises Caribbean growth by 0.09 ppts, while a natural disaster reduces growth by 0.84 ppts on average. Doubling stayover arrivals from 82,000 in 2027 to 173,000 in 2037 boosts growth by about 1½ ppts on average during 2028–30. Tripling arrivals to around 250,000 over a decade raises growth by around 2 ppts during 2028–32. As these growth impulses fade once a new equilibrium is reached, Dominica must address persistent structural impediments to economic diversification.",
+    "words": 89,
+    "revised": false,
+    "trimmed_by_code": false,
+    "draft_scores": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5
+    },
+    "final_scores": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5
+    },
+    "judge_problems": [],
+    "key_figures": [
+      "0.09 ppts (1990 onwards)",
+      "0.84 ppts (1990 onwards)",
+      "82,000 stayover arrivals (2027)",
+      "173,000 stayover arrivals (2037)",
+      "1½ ppts (2028-30)",
+      "2 ppts (2028-32)"
+    ],
+    "numbers_found": 0.9
+  },
+  {
+    "id": "S18",
+    "title": "Annex VII. Data Issues",
+    "pages": [
+      65,
+      67
+    ],
+    "summary": "Dominica’s overall data provided to the Fund has some shortcomings that somewhat hamper surveillance. Data adequacy for government finance statistics deteriorated due to irregular reporting of citizenship-by-investment flows. Public debt statistics used by staff differ from official data by including domestic arrears, estimated at 3.8 percent of GDP as of FY2024/25, and PetroCaribe debt to Venezuela, estimated at 51.7 million US dollars, or 7.2 percent of GDP, as of FY2024/25. The GDP base year was rebased from 2006 to 2018. Technical assistance priorities include addressing fiscal and debt data gaps.",
+    "words": 90,
+    "revised": true,
+    "trimmed_by_code": false,
+    "draft_scores": {
+      "consistency": 4,
+      "completeness": 4,
+      "factual_alignment": 4
+    },
+    "final_scores": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5
+    },
+    "judge_problems": [
+      "Contradiction regarding overall data adequacy: 'Dominica's data are broadly adequate for surveillance' corresponds to Rating B, whereas Table 1 assigns Dominica an overall Data Adequacy Assessment rating of 'C' ('data provided to the Fund has some shortcomings that somewhat hamper surveillance')."
+    ],
+    "key_figures": [
+      "3.8 percent of GDP as of FY2024/25",
+      "51.7 million US dollars as of FY2024/25",
+      "7.2 percent of GDP as of FY2024/25",
+      "2006",
+      "2018"
+    ],
+    "numbers_found": 1.0
+  },
+  {
+    "id": "S19",
+    "title": "Debt Sustainability Analysis",
+    "pages": [
+      68,
+      88
+    ],
+    "summary": "Dominica’s debt is sustainable, but the country remains at an overall high risk of debt distress. Public debt rose to 108.2 percent of GDP in FY2024/25, while external public debt reached 72.3 percent of GDP in FY2024/25. Current policies are insufficient to meet the regional debt target of 60 percent of GDP by 2035. Staff advise fiscal consolidation to reach a primary surplus of 3½ percent of GDP after FY2026/27, alongside building savings in dedicated risk management funds. Key downside risks include natural disaster shocks, reduced citizenship-by-investment revenues, and slower global growth.",
+    "words": 92,
+    "revised": false,
+    "trimmed_by_code": false,
+    "draft_scores": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5
+    },
+    "final_scores": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5
+    },
+    "judge_problems": [],
+    "key_figures": [
+      "108.2 percent of GDP in FY2024/25",
+      "72.3 percent of GDP in FY2024/25",
+      "60 percent of GDP by 2035",
+      "3½ percent of GDP after FY2026/27"
+    ],
+    "numbers_found": 1.0
+  },
+  {
+    "id": "S20",
+    "title": "Informational Annex",
+    "pages": [
+      89,
+      94
+    ],
+    "summary": "This section details Dominica's IMF relations, financial obligations, and extensive technical assistance engagements. As of March 31, 2026, Dominica’s quota is SDR 11.50 million, with outstanding Rapid Credit Facility loans of SDR 9.25 million. Total projected payments due to the Fund are SDR 2.37 million in 2026, SDR 2.48 million in 2027, and SDR 1.45 million in 2030. The exchange rate has been pegged to the US dollar at EC$2.70 per US dollar since July 1976. Legal reforms are recommended to strengthen the central bank's operational autonomy following an August 2021 safeguards assessment.",
+    "words": 93,
+    "revised": false,
+    "trimmed_by_code": false,
+    "draft_scores": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5
+    },
+    "final_scores": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5
+    },
+    "judge_problems": [],
+    "key_figures": [
+      "SDR 11.50 million quota as of March 31, 2026",
+      "SDR 9.25 million outstanding RCF loans as of March 31, 2026",
+      "SDR 2.37 million total projected payments in 2026",
+      "EC$2.70 per U.S. dollar exchange rate since July 1976"
+    ],
+    "numbers_found": 1.0
+  },
+  {
+    "id": "S21",
+    "title": "Statement by the Executive Director",
+    "pages": [
+      95,
+      98
+    ],
+    "summary": "Dominica's economy shows resilience driven by tourism and construction, though growth will moderate. Real GDP growth is projected to average about 3.0 percent in 2026–27 and 2.0 percent over the longer term. The current account deficit is expected to reach around 38 percent of GDP in 2025. Inflation will rise to around 3.9 percent in 2026, before stabilising at around 2.2 percent over the medium term. To mitigate external and revenue risks, the authorities plan fiscal consolidation to achieve a 2 percent of GDP primary surplus floor for FY2026/27.",
+    "words": 89,
+    "revised": false,
+    "trimmed_by_code": false,
+    "draft_scores": {
+      "consistency": 5,
+      "completeness": 4,
+      "factual_alignment": 5
+    },
+    "final_scores": {
+      "consistency": 5,
+      "completeness": 4,
+      "factual_alignment": 5
+    },
+    "judge_problems": [],
+    "key_figures": [
+      "3.0 percent in 2026–27",
+      "2.0 percent over the longer term",
+      "around 38 percent of GDP in 2025",
+      "around 3.9 percent in 2026",
+      "around 2.2 percent over the medium term",
+      "2 percent of GDP for FY2026/27"
+    ],
+    "numbers_found": 1.0
+  }
+]
